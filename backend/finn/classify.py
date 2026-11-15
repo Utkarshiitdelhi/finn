@@ -52,6 +52,7 @@ _TEXT_FIRST: list[tuple[str, re.Pattern]] = [(c, re.compile(p, re.I)) for c, p i
     ("routine", r"newspaper|advertisement|publication of"),
     ("routine", r"commercial paper|esop|esos|esps|employee stock option"),
     ("routine", r"half[- ]yearly report|related party transaction|loss of share|duplicate share|investor complaints|74\s*\(5\)"),
+    ("routine", r"(change in|appointment of|re-?appointment of|resignation of)\s+(the\s+)?(statutory |secretarial |internal |cost )?auditors?|esg report|business responsibility|compliance certificate"),  # reference doc: routine paperwork
     ("board_meeting", r"to announce .*results|intimat\w* .*board meeting|board meeting .*(to consider|will be held|scheduled)"),
     ("earnings_call", r"transcript"),
     ("results", r"(submitted|approved|considered).{0,60}(unaudited |audited )?(standalone |consolidated )?financial results"),

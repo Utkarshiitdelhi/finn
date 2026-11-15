@@ -72,10 +72,20 @@ export default function FeedScreen() {
 
   const sections = useMemo(() => {
     if (!data) return [];
-    if (!bySector) return (['S', 'A', 'B'] as const).map((t) => ({ key: t, title: { S: 'Needs you now', A: 'Worth a look', B: 'For the record' }[t], items: data[t] }));
+    if (!bySector)
+      return (['S', 'A', 'B'] as const).map((t) => ({ key: t as string, title: { S: 'Needs you now', A: 'Worth a look', B: 'For the record' }[t], items: data[t], summary: '' }));
     const groups: Record<string, FeedCard[]> = {};
     [...data.S, ...data.A, ...data.B].forEach((f) => (groups[f.sector || 'Other'] ||= []).push(f));
-    return Object.entries(groups).map(([k, items]) => ({ key: k, title: k, items }));
+    // Sector-wise summary: sectors with urgent items first, each with a one-line tally
+    const rank = (items: FeedCard[]) => items.reduce((a, f) => a + ({ S: 100, A: 10, B: 1 } as Record<string, number>)[f.tier], 0);
+    return Object.entries(groups)
+      .sort((a, b) => rank(b[1]) - rank(a[1]))
+      .map(([k, items]) => {
+        const n = (t: string) => items.filter((f) => f.tier === t).length;
+        const parts = [n('S') && `${n('S')} urgent`, n('A') && `${n('A')} worth a look`, n('B') && `${n('B')} for the record`].filter(Boolean);
+        const lead = items.find((f) => f.tier === 'S') || items[0];
+        return { key: k, title: k, items, summary: `${parts.join(' · ')}. Top: ${lead.headline}` };
+      });
   }, [data, bySector]);
 
   return (
@@ -178,6 +188,11 @@ export default function FeedScreen() {
                 <Text style={[st.countText, { color: !bySector ? C.tier[sec.key] : C.sub }]}>{sec.items.length}</Text>
               </View>
             </View>
+            {sec.summary ? (
+              <Text style={st.secSummary} numberOfLines={2}>
+                {sec.summary}
+              </Text>
+            ) : null}
             {sec.items.map((f) => (
               <Pressable key={f.id} onLongPress={() => dismiss(f)} delayLongPress={600}>
                 <FilingCard f={f} compact />
@@ -225,6 +240,7 @@ const st = themed(() => ({
   bar: { width: 4, height: 18, borderRadius: 2 },
   secTitle: { fontSize: 15, fontWeight: '800', letterSpacing: 0.3, color: C.text },
   countBadge: { borderRadius: 999, paddingHorizontal: 8, paddingVertical: 1 },
+  secSummary: { color: C.sub, fontSize: 13, lineHeight: 18, marginTop: -4 },
   countText: { fontSize: 12, fontWeight: '800', fontFamily: F.mono },
   widened: { color: C.sub, fontSize: 12, fontStyle: 'italic' },
   row: { flexDirection: 'row', gap: 8, alignItems: 'center' },

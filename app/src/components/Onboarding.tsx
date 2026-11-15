@@ -13,8 +13,8 @@ type Step = { icon: React.ComponentProps<typeof Ionicons>['name']; title: string
 const STEPS: Step[] = [
   {
     icon: 'funnel-outline',
-    title: 'Only what matters to you',
-    body: 'FINN reads every NSE filing for your holdings and ranks it. Urgent items reach your phone; routine ones stay out of the way.',
+    title: 'What’s material to your portfolio',
+    body: 'FINN reads every NSE filing for your holdings and ranks it by how much it matters. Urgent items reach your phone; routine filings are counted and tucked away, never lost.',
     extra: 'tiers',
   },
   {
