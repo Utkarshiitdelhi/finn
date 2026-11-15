@@ -23,6 +23,29 @@ const SUGGEST: Record<string, string[]> = {
   impact: ['Which holding is most exposed?'],
 };
 
+// Pick the phone's best English voice once (iOS "Enhanced"/"Premium" voices sound natural; the default is robotic).
+let chosenVoice: string | undefined | null = null;
+async function speak(text: string) {
+  if (!text) return;
+  if (chosenVoice === null) {
+    try {
+      const en = (await Speech.getAvailableVoicesAsync()).filter((v) => v.language?.toLowerCase().startsWith('en'));
+      const good = (v: Speech.Voice) => String(v.quality).toLowerCase() !== 'default';
+      const pick =
+        en.find((v) => good(v) && /en-(in|gb)/i.test(v.language)) ||
+        en.find((v) => good(v) && /en-us/i.test(v.language)) ||
+        en.find(good) ||
+        en.find((v) => /en-in/i.test(v.language)) ||
+        en.find((v) => /en-us/i.test(v.language));
+      chosenVoice = pick?.identifier;
+    } catch {
+      chosenVoice = undefined;
+    }
+  }
+  Speech.stop();
+  Speech.speak(text, { voice: chosenVoice || undefined, language: chosenVoice ? undefined : 'en-US', rate: 0.92, pitch: 1.0 });
+}
+
 /** Floating FINN button on every screen: tap to type, hold to talk. */
 export function FinnButton() {
   const insets = useSafeAreaInsets();
@@ -37,7 +60,7 @@ export function FinnButton() {
 
   const handle = (r: AssistantReply) => {
     setReply(r);
-    if (r.say) Speech.speak(r.say, { rate: 1.05 }); // at most two sentences; the screen carries the detail
+    if (r.say) speak(r.say); // at most two sentences; the screen carries the detail
     if (r.intent === 'go' && r.route) {
       setOpen(false);
       router.push(r.route as any);

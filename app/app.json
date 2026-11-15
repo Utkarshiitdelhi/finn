@@ -12,7 +12,7 @@
     },
     "android": {
       "adaptiveIcon": {
-        "backgroundColor": "#0B0D10",
+        "backgroundColor": "#050507",
         "foregroundImage": "./assets/android-icon-foreground.png",
         "backgroundImage": "./assets/android-icon-background.png",
         "monochromeImage": "./assets/android-icon-monochrome.png"
@@ -48,7 +48,7 @@
       "expo-font"
     ],
     "scheme": "finn",
-    "backgroundColor": "#0B0D10",
+    "backgroundColor": "#050507",
     "experiments": {
       "typedRoutes": false
     },
@@ -57,6 +57,11 @@
         "projectId": "c1beb888-b9dd-4435-bc07-814449d33b72"
       }
     },
-    "owner": "utkarshraj"
+    "owner": "utkarshraj",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#050507"
+    }
   }
 }

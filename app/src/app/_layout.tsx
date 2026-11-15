@@ -6,6 +6,7 @@ import { Platform, View } from 'react-native';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
 
 import { FinnButton } from '@/components/FinnButton';
+import { Onboarding } from '@/components/Onboarding';
 import { FinnProvider } from '@/lib/finnContext';
 import { registerForPush } from '@/lib/push';
 import { ThemeProvider } from '@/lib/themeContext';
@@ -50,6 +51,7 @@ export default function RootLayout() {
                 <Stack.Screen name="impact/[series]" options={{ title: 'Impact', presentation: 'formSheet', sheetAllowedDetents: [0.6, 1] }} />
               </Stack>
               <FinnButton />
+              <Onboarding />
             </View>
           </FinnProvider>
         )}
