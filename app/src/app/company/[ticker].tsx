@@ -176,14 +176,20 @@ export default function CompanyScreen() {
 
   useEffect(() => {
     let alive = true;
+    let failures = 0;
     const poll = async () => {
       try {
         const d = await api.company(T);
         if (!alive) return;
+        failures = 0;
         setData(d);
         if (d.status === 'building') timer.current = setTimeout(poll, 2500);
       } catch (e: any) {
-        if (alive) setErr(e.message);
+        // The build keeps running on the server; a blip (app backgrounded, server waking) is not a failure.
+        if (!alive) return;
+        failures += 1;
+        if (failures < 30) timer.current = setTimeout(poll, Math.min(2500 * failures, 10000));
+        else setErr(e.message);
       }
     };
     poll();

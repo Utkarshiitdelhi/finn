@@ -78,7 +78,9 @@ def ask(s: Session, q: str, ctx: dict) -> dict:
                 ids[sid] = {"type": "card", "ticker": t, "card": cid}
                 sources.append(f"[{sid}] {str(c)[:3500]}")
     if not sources:
-        return {"intent": "ask", "answer": "Not in the sources.", "cites": [], "say": "I don't have anything on that yet."}
+        return _scope_reply(q)
+    if not tickers and not ctx.get("filing_id") and not re.search(r"\b(today|portfolio|holdings?|feed|urgent|results?|filings?)\b", q, re.I):
+        return _scope_reply(q)  # no NSE company named and not about the feed: say what FINN covers
     if not llm.available("answer"):
         top = filings[0] if filings else None
         if top:
@@ -86,8 +88,25 @@ def ask(s: Session, q: str, ctx: dict) -> dict:
                     "say": top.headline}
         return {"intent": "ask", "answer": "Not in the sources.", "cites": [], "say": "I don't have anything on that yet."}
     context = f"the {ctx.get('screen', 'feed')} screen" + (f" for {ctx['ticker']}" if ctx.get("ticker") else "")
-    out = llm.call("answer", ANSWER_PROMPT.format(context=context, q=q, sources="\n".join(sources)[:60_000]))
+    try:
+        out = llm.call("answer", ANSWER_PROMPT.format(context=context, q=q, sources="\n".join(sources)[:60_000]))
+    except llm.LLMUnavailable:
+        top = filings[0] if filings else None
+        if top:
+            return {"intent": "ask", "answer": f"(Quick answer, model busy) {top.headline}. {top.summary}",
+                    "cites": [ids["F1"]], "say": top.headline}
+        return _scope_reply(q)
     answer = out.get("answer", "Not in the sources.")
+    if answer.strip().lower().startswith("not in the sources"):
+        return _scope_reply(q, found_nothing=True)
     cites = [ids[c] for c in out.get("cites", []) if c in ids]
     first = re.split(r"(?<=[.!?])\s", re.sub(r"\[[^\]]+\]", "", answer).strip())
     return {"intent": "ask", "answer": answer, "cites": cites, "say": " ".join(first[:2])}
+
+
+def _scope_reply(q: str, found_nothing: bool = False) -> dict:
+    """Grounded by design: FINN answers from exchange filings, annual reports and transcripts of NSE companies — not news."""
+    lead = "I couldn't find that in your filings or research." if found_nothing else \
+        "FINN answers from NSE filings, annual reports and earnings-call transcripts, not news, and covers NSE-listed companies."
+    return {"intent": "ask", "answer": f"{lead} Try: “What did Infosys say about margins?”, “Why is Titan urgent?”, "
+                                      f"or “Alert me if crude rises 3%”.", "cites": [], "say": lead}

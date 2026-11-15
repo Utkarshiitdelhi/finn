@@ -114,7 +114,7 @@ Return JSON: {{"bull": [{{"point": "", "cites": ["numbers"]}}], "bear": [{{"poin
 Cards: {cards}"""
 
 
-def build(ticker: str, max_calls: int = 6, use_models: bool = True) -> dict:
+def build(ticker: str, max_calls: int = 4, use_models: bool = True) -> dict:
     ticker = ticker.upper()
     job_id = f"research:{ticker}"
     with session_scope() as s:

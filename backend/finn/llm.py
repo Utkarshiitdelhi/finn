@@ -33,9 +33,9 @@ ROUTES: dict[str, list[str]] = {
     "claims": ["gemini_mid", "gemini_small"],
     "exposures": ["gemini_mid", "gemini_small"],
     "snapshot": ["gemini_mid", "gemini_small"],
-    "verdict": ["gemini_strong", "gemini_mid"],
-    "bullbear": ["gemini_strong", "gemini_mid"],
-    "answer": ["gemini_mid", "gemini_strong"],
+    "verdict": ["gemini_mid", "gemini_strong"],
+    "bullbear": ["gemini_mid", "gemini_strong"],
+    "answer": ["gemini_mid", "gemini_small"],
     "intent": ["groq_small", "gemini_small"],
 }
 

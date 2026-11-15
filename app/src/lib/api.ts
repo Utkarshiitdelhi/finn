@@ -1,4 +1,36 @@
+import { Platform } from 'react-native';
+
 export const API_URL = (process.env.EXPO_PUBLIC_API_URL || 'http://localhost:8000').replace(/\/$/, '');
+
+/** Audio upload. The fetch() in recent Expo can't send {uri,name,type} file parts ("Unsupported FormDataPart"),
+ *  but React Native's XMLHttpRequest can; on web the recording is a blob: URL, so send a real Blob. */
+async function uploadVoice(uri: string, ctx: any): Promise<AssistantReply> {
+  const fd = new FormData();
+  if (Platform.OS === 'web') {
+    const blob = await (await fetch(uri)).blob();
+    fd.append('audio', blob, 'voice.webm');
+  } else {
+    fd.append('audio', { uri, name: 'voice.m4a', type: 'audio/m4a' } as any);
+  }
+  fd.append('ctx', JSON.stringify(ctx));
+  return new Promise((resolve, reject) => {
+    const xhr = new XMLHttpRequest();
+    xhr.open('POST', API_URL + '/assistant/voice');
+    xhr.timeout = 70000;
+    xhr.onload = () => {
+      try {
+        const body = JSON.parse(xhr.responseText || '{}');
+        if (xhr.status >= 200 && xhr.status < 300) resolve(body);
+        else reject(new ApiError(xhr.status, body.detail || 'Voice request failed'));
+      } catch {
+        reject(new ApiError(xhr.status, 'Voice request failed'));
+      }
+    };
+    xhr.onerror = () => reject(new ApiError(0, 'Network error while sending audio'));
+    xhr.ontimeout = () => reject(new ApiError(0, 'Server took too long (it may be waking up)'));
+    xhr.send(fd);
+  });
+}
 
 export class ApiError extends Error {
   constructor(public status: number, message: string) {
@@ -121,13 +153,7 @@ export const api = {
   prefs: (body: any) => req('/portfolio/prefs', { method: 'PUT', body: JSON.stringify(body) }),
   star: (ticker: string) => req(`/portfolio/star/${ticker}`, { method: 'POST' }),
   assistant: (text: string, ctx: any) => req<AssistantReply>('/assistant', { method: 'POST', body: JSON.stringify({ text, ctx }) }),
-  voice: (uri: string, ctx: any) => {
-    const fd = new FormData();
-    // React Native's FormData accepts {uri, name, type} file parts
-    fd.append('audio', { uri, name: 'voice.m4a', type: 'audio/m4a' } as any);
-    fd.append('ctx', JSON.stringify(ctx));
-    return req<AssistantReply>('/assistant/voice', { method: 'POST', body: fd });
-  },
+  voice: (uri: string, ctx: any) => uploadVoice(uri, ctx),
   pushTest: () => req<{ sent: number }>('/push/test', { method: 'POST' }),
   registerPush: (token: string, platform: string) => req('/push/register', { method: 'POST', body: JSON.stringify({ token, platform }) }),
 };

@@ -1,3 +1,4 @@
+import Ionicons from '@expo/vector-icons/Ionicons';
 import { router } from 'expo-router';
 import { useCallback, useEffect, useMemo, useState } from 'react';
 import { Pressable, RefreshControl, ScrollView, StyleSheet, Text, TextInput, View } from 'react-native';
@@ -121,6 +122,29 @@ export default function FeedScreen() {
         </View>
       ) : null}
 
+      <View style={st.macro}>
+        <View style={{ flexDirection: 'row', alignItems: 'center', gap: 8 }}>
+          <Ionicons name="git-network-outline" size={18} color={C.accent} />
+          <Text style={st.macroTitle}>How world events hit your holdings</Text>
+        </View>
+        <Text style={st.macroSub}>Tap a factor to see which of your companies say it affects them, with the line from their annual report.</Text>
+        <View style={{ flexDirection: 'row', flexWrap: 'wrap', gap: 8 }}>
+          {(
+            [
+              ['CL=F', 'Crude oil', 'flame-outline'],
+              ['USDINR=X', 'USD / INR', 'cash-outline'],
+              ['GC=F', 'Gold', 'diamond-outline'],
+            ] as const
+          ).map(([sym, label, ic]) => (
+            <Pressable key={sym} onPress={() => router.push(`/impact/${encodeURIComponent(sym)}`)} style={st.macroChip}>
+              <Ionicons name={ic} size={16} color={C.accentText} />
+              <Text style={st.macroChipText}>{label}</Text>
+              <Ionicons name="chevron-forward" size={14} color={C.accentText} />
+            </Pressable>
+          ))}
+        </View>
+      </View>
+
       <TextInput value={q} onChangeText={setQ} placeholder="Search any NSE ticker" placeholderTextColor={C.faint} style={st.search} autoCapitalize="characters" />
       {hits.length ? (
         <View style={st.hits}>
@@ -139,19 +163,6 @@ export default function FeedScreen() {
         ))}
         <View style={{ flex: 1 }} />
         <Chip label={bySector ? 'By tier' : 'By sector'} onPress={() => setBySector(!bySector)} />
-      </View>
-
-      <View style={st.macro}>
-        <Label>Macro → your holdings</Label>
-        <View style={{ flexDirection: 'row', flexWrap: 'wrap', gap: 6 }}>
-          {[
-            ['CL=F', 'Crude oil'],
-            ['USDINR=X', 'USD/INR'],
-            ['GC=F', 'Gold'],
-          ].map(([sym, label]) => (
-            <Chip key={sym} label={`${label} ›`} onPress={() => router.push(`/impact/${encodeURIComponent(sym)}`)} />
-          ))}
-        </View>
       </View>
 
       {loading && !data ? <Loading label="Loading your feed…" /> : null}
@@ -222,6 +233,10 @@ const st = themed(() => ({
   hit: { padding: 12, borderBottomWidth: StyleSheet.hairlineWidth, borderBottomColor: C.line, gap: 2 },
   secHead: { flexDirection: 'row', alignItems: 'center', gap: 8, marginTop: 10 },
   dot: { width: 8, height: 8, borderRadius: 4 },
-  macro: { gap: 8, padding: 12, backgroundColor: C.surface, borderRadius: 10 },
+  macro: { gap: 10, padding: 16, borderRadius: 16, backgroundColor: tint(C.accent, C.mode === 'dark' ? 0.14 : 0.08), borderWidth: 1, borderColor: tint(C.accent, 0.45) },
+  macroTitle: { color: C.text, fontSize: 16, fontWeight: '800' },
+  macroSub: { color: C.sub, fontSize: 12, lineHeight: 17 },
+  macroChip: { flexDirection: 'row', alignItems: 'center', gap: 6, backgroundColor: C.accent, borderRadius: 999, paddingHorizontal: 14, paddingVertical: 9 },
+  macroChipText: { color: C.accentText, fontSize: 14, fontWeight: '800' },
   cRow: { flexDirection: 'row', justifyContent: 'space-between', padding: 14, backgroundColor: C.surface, borderRadius: 10 },
 }));
