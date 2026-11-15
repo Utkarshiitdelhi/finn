@@ -1,0 +1,62 @@
+{
+  "expo": {
+    "name": "FINN",
+    "slug": "enam",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.utkarsh.finn"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#0B0D10",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false,
+      "package": "com.utkarsh.finn",
+      "googleServicesFile": "./google-services.json",
+      "permissions": [
+        "RECORD_AUDIO",
+        "POST_NOTIFICATIONS"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "output": "single",
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-notifications",
+        {
+          "color": "#E5484D"
+        }
+      ],
+      [
+        "expo-audio",
+        {
+          "microphonePermission": "FINN uses the microphone when you hold the FINN button to talk.",
+          "recordAudioAndroid": true
+        }
+      ],
+      "expo-font"
+    ],
+    "scheme": "finn",
+    "backgroundColor": "#0B0D10",
+    "experiments": {
+      "typedRoutes": false
+    },
+    "extra": {
+      "eas": {
+        "projectId": "c1beb888-b9dd-4435-bc07-814449d33b72"
+      }
+    },
+    "owner": "utkarshraj"
+  }
+}

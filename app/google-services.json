@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "65693804560",
+    "project_id": "finn-688eb",
+    "storage_bucket": "finn-688eb.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:65693804560:android:7e04765364d377ddfb4295",
+        "android_client_info": {
+          "package_name": "com.utkarsh.finn"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCHs7QRFLfH7ZUad3WcDG8ZR9V6K2HadFc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,15 @@
+node_modules/
+.expo/
+dist/
+web-build/
+*.apk
+.env
+.env.local
+__pycache__/
+*.pyc
+.pytest_cache/
+backend/finn.db
+backend/data/cache/
+backend/.venv/
+.DS_Store
+*-service-account*.json

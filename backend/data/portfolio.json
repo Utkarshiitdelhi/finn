@@ -1,0 +1,162 @@
+{
+ "_note": "Demo portfolio. Weights are fractions of the portfolio. Add the mid-cap with recent pledging / rating action once you pick it (16th holding).",
+ "holdings": [
+  {
+   "ticker": "HDFCBANK",
+   "name": "HDFC Bank Ltd",
+   "sector": "Private bank",
+   "weight": 0.1
+  },
+  {
+   "ticker": "ICICIBANK",
+   "name": "ICICI Bank Ltd",
+   "sector": "Private bank",
+   "weight": 0.08
+  },
+  {
+   "ticker": "BAJFINANCE",
+   "name": "Bajaj Finance Ltd",
+   "sector": "NBFC",
+   "weight": 0.06
+  },
+  {
+   "ticker": "INFY",
+   "name": "Infosys Ltd",
+   "sector": "IT services",
+   "weight": 0.09
+  },
+  {
+   "ticker": "TCS",
+   "name": "Tata Consultancy Services Ltd",
+   "sector": "IT services",
+   "weight": 0.07
+  },
+  {
+   "ticker": "HINDUNILVR",
+   "name": "Hindustan Unilever Ltd",
+   "sector": "FMCG",
+   "weight": 0.06
+  },
+  {
+   "ticker": "ASIANPAINT",
+   "name": "Asian Paints Ltd",
+   "sector": "Paints",
+   "weight": 0.05
+  },
+  {
+   "ticker": "MARUTI",
+   "name": "Maruti Suzuki India Ltd",
+   "sector": "Auto",
+   "weight": 0.06
+  },
+  {
+   "ticker": "SUNPHARMA",
+   "name": "Sun Pharmaceutical Industries Ltd",
+   "sector": "Pharma",
+   "weight": 0.06
+  },
+  {
+   "ticker": "ULTRACEMCO",
+   "name": "UltraTech Cement Ltd",
+   "sector": "Cement",
+   "weight": 0.05
+  },
+  {
+   "ticker": "TATASTEEL",
+   "name": "Tata Steel Ltd",
+   "sector": "Metals",
+   "weight": 0.05
+  },
+  {
+   "ticker": "BPCL",
+   "name": "Bharat Petroleum Corporation Ltd",
+   "sector": "Oil marketing",
+   "weight": 0.05
+  },
+  {
+   "ticker": "LT",
+   "name": "Larsen & Toubro Ltd",
+   "sector": "Capital goods",
+   "weight": 0.07
+  },
+  {
+   "ticker": "BHARTIARTL",
+   "name": "Bharti Airtel Ltd",
+   "sector": "Telecom",
+   "weight": 0.08
+  },
+  {
+   "ticker": "TITAN",
+   "name": "Titan Company Ltd",
+   "sector": "Consumer",
+   "weight": 0.07
+  }
+ ],
+ "starred_categories": [],
+ "peers": {
+  "KOTAKBANK": "Private bank",
+  "AXISBANK": "Private bank",
+  "INDUSINDBK": "Private bank",
+  "SHRIRAMFIN": "NBFC",
+  "CHOLAFIN": "NBFC",
+  "WIPRO": "IT services",
+  "HCLTECH": "IT services",
+  "TECHM": "IT services",
+  "ITC": "FMCG",
+  "NESTLEIND": "FMCG",
+  "DABUR": "FMCG",
+  "BERGEPAINT": "Paints",
+  "TATAMOTORS": "Auto",
+  "M&M": "Auto",
+  "BAJAJ-AUTO": "Auto",
+  "DRREDDY": "Pharma",
+  "CIPLA": "Pharma",
+  "LUPIN": "Pharma",
+  "AMBUJACEM": "Cement",
+  "SHREECEM": "Cement",
+  "JSWSTEEL": "Metals",
+  "HINDALCO": "Metals",
+  "SAIL": "Metals",
+  "IOC": "Oil marketing",
+  "HINDPETRO": "Oil marketing",
+  "SIEMENS": "Capital goods",
+  "ABB": "Capital goods",
+  "BEL": "Capital goods",
+  "IDEA": "Telecom",
+  "KALYANKJIL": "Consumer",
+  "TRENT": "Consumer"
+ },
+ "aliases": {
+  "LT": [
+   "l&t",
+   "larsen"
+  ],
+  "HINDUNILVR": [
+   "hul",
+   "hindustan unilever"
+  ],
+  "HDFCBANK": [
+   "hdfc bank",
+   "hdfc"
+  ],
+  "ICICIBANK": [
+   "icici"
+  ],
+  "BHARTIARTL": [
+   "airtel",
+   "bharti"
+  ],
+  "ULTRACEMCO": [
+   "ultratech"
+  ],
+  "BPCL": [
+   "bharat petroleum"
+  ],
+  "BAJFINANCE": [
+   "bajaj finance"
+  ],
+  "TCS": [
+   "tata consultancy"
+  ]
+ }
+}

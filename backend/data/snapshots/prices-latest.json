@@ -1,0 +1,5042 @@
+[
+ {
+  "symbol": "HDFCBANK",
+  "day": "2026-09-08",
+  "close": 703.0,
+  "volume": 19883515.0
+ },
+ {
+  "symbol": "HDFCBANK",
+  "day": "2026-09-09",
+  "close": 687.0999755859375,
+  "volume": 39173990.0
+ },
+ {
+  "symbol": "HDFCBANK",
+  "day": "2026-09-10",
+  "close": 693.7999877929688,
+  "volume": 27108053.0
+ },
+ {
+  "symbol": "HDFCBANK",
+  "day": "2026-09-11",
+  "close": 708.25,
+  "volume": 31411934.0
+ },
+ {
+  "symbol": "HDFCBANK",
+  "day": "2026-09-15",
+  "close": 716.5499877929688,
+  "volume": 50387632.0
+ },
+ {
+  "symbol": "HDFCBANK",
+  "day": "2026-09-16",
+  "close": 721.5,
+  "volume": 27476943.0
+ },
+ {
+  "symbol": "HDFCBANK",
+  "day": "2026-09-17",
+  "close": 713.0,
+  "volume": 21543303.0
+ },
+ {
+  "symbol": "HDFCBANK",
+  "day": "2026-09-18",
+  "close": 731.0,
+  "volume": 39400710.0
+ },
+ {
+  "symbol": "HDFCBANK",
+  "day": "2026-09-21",
+  "close": 739.5,
+  "volume": 35482683.0
+ },
+ {
+  "symbol": "HDFCBANK",
+  "day": "2026-09-22",
+  "close": 738.5999755859375,
+  "volume": 35483669.0
+ },
+ {
+  "symbol": "HDFCBANK",
+  "day": "2026-09-23",
+  "close": 737.25,
+  "volume": 23197231.0
+ },
+ {
+  "symbol": "HDFCBANK",
+  "day": "2026-09-24",
+  "close": 728.9000244140625,
+  "volume": 29575194.0
+ },
+ {
+  "symbol": "HDFCBANK",
+  "day": "2026-09-25",
+  "close": 735.5999755859375,
+  "volume": 19853034.0
+ },
+ {
+  "symbol": "HDFCBANK",
+  "day": "2026-09-28",
+  "close": 719.0499877929688,
+  "volume": 21675579.0
+ },
+ {
+  "symbol": "HDFCBANK",
+  "day": "2026-09-29",
+  "close": 722.7000122070312,
+  "volume": 42755901.0
+ },
+ {
+  "symbol": "HDFCBANK",
+  "day": "2026-09-30",
+  "close": 708.7000122070312,
+  "volume": 39365496.0
+ },
+ {
+  "symbol": "HDFCBANK",
+  "day": "2026-10-01",
+  "close": 721.2000122070312,
+  "volume": 37389857.0
+ },
+ {
+  "symbol": "HDFCBANK",
+  "day": "2026-10-05",
+  "close": 704.7999877929688,
+  "volume": 66056690.0
+ },
+ {
+  "symbol": "HDFCBANK",
+  "day": "2026-10-06",
+  "close": 711.4500122070312,
+  "volume": 26568270.0
+ },
+ {
+  "symbol": "HDFCBANK",
+  "day": "2026-10-07",
+  "close": 702.75,
+  "volume": 29944008.0
+ },
+ {
+  "symbol": "HDFCBANK",
+  "day": "2026-10-08",
+  "close": 692.25,
+  "volume": 26808765.0
+ },
+ {
+  "symbol": "HDFCBANK",
+  "day": "2026-10-09",
+  "close": 707.25,
+  "volume": 18397972.0
+ },
+ {
+  "symbol": "HDFCBANK",
+  "day": "2026-10-12",
+  "close": 704.9000244140625,
+  "volume": 18197879.0
+ },
+ {
+  "symbol": "HDFCBANK",
+  "day": "2026-10-13",
+  "close": 714.0,
+  "volume": 18838639.0
+ },
+ {
+  "symbol": "HDFCBANK",
+  "day": "2026-10-14",
+  "close": 710.7000122070312,
+  "volume": 23945373.0
+ },
+ {
+  "symbol": "HDFCBANK",
+  "day": "2026-10-15",
+  "close": 726.8499755859375,
+  "volume": 37365177.0
+ },
+ {
+  "symbol": "HDFCBANK",
+  "day": "2026-10-16",
+  "close": 728.8499755859375,
+  "volume": 28936902.0
+ },
+ {
+  "symbol": "HDFCBANK",
+  "day": "2026-10-19",
+  "close": 712.0,
+  "volume": 33524133.0
+ },
+ {
+  "symbol": "HDFCBANK",
+  "day": "2026-10-21",
+  "close": 706.9500122070312,
+  "volume": 26573703.0
+ },
+ {
+  "symbol": "HDFCBANK",
+  "day": "2026-10-22",
+  "close": 694.0499877929688,
+  "volume": 60280576.0
+ },
+ {
+  "symbol": "HDFCBANK",
+  "day": "2026-10-23",
+  "close": 692.7999877929688,
+  "volume": 18989022.0
+ },
+ {
+  "symbol": "HDFCBANK",
+  "day": "2026-10-26",
+  "close": 688.0499877929688,
+  "volume": 23489755.0
+ },
+ {
+  "symbol": "HDFCBANK",
+  "day": "2026-10-27",
+  "close": 680.2000122070312,
+  "volume": 40614930.0
+ },
+ {
+  "symbol": "HDFCBANK",
+  "day": "2026-10-28",
+  "close": 685.2999877929688,
+  "volume": 28534206.0
+ },
+ {
+  "symbol": "HDFCBANK",
+  "day": "2026-10-29",
+  "close": 683.2999877929688,
+  "volume": 31422790.0
+ },
+ {
+  "symbol": "HDFCBANK",
+  "day": "2026-10-30",
+  "close": 692.7999877929688,
+  "volume": 21296902.0
+ },
+ {
+  "symbol": "HDFCBANK",
+  "day": "2026-11-02",
+  "close": 700.0,
+  "volume": 21480587.0
+ },
+ {
+  "symbol": "HDFCBANK",
+  "day": "2026-11-03",
+  "close": 725.5,
+  "volume": 42746644.0
+ },
+ {
+  "symbol": "HDFCBANK",
+  "day": "2026-11-04",
+  "close": 736.7000122070312,
+  "volume": 50677695.0
+ },
+ {
+  "symbol": "HDFCBANK",
+  "day": "2026-11-05",
+  "close": 760.0,
+  "volume": 65401905.0
+ },
+ {
+  "symbol": "HDFCBANK",
+  "day": "2026-11-06",
+  "close": 788.25,
+  "volume": 73482878.0
+ },
+ {
+  "symbol": "HDFCBANK",
+  "day": "2026-11-09",
+  "close": 798.1500244140625,
+  "volume": 64826814.0
+ },
+ {
+  "symbol": "HDFCBANK",
+  "day": "2026-11-11",
+  "close": 806.5999755859375,
+  "volume": 56398940.0
+ },
+ {
+  "symbol": "HDFCBANK",
+  "day": "2026-11-12",
+  "close": 812.2999877929688,
+  "volume": 38292509.0
+ },
+ {
+  "symbol": "HDFCBANK",
+  "day": "2026-11-13",
+  "close": 804.0,
+  "volume": 23442886.0
+ },
+ {
+  "symbol": "ICICIBANK",
+  "day": "2026-09-08",
+  "close": 1399.4000244140625,
+  "volume": 12123411.0
+ },
+ {
+  "symbol": "ICICIBANK",
+  "day": "2026-09-09",
+  "close": 1389.0999755859375,
+  "volume": 14229080.0
+ },
+ {
+  "symbol": "ICICIBANK",
+  "day": "2026-09-10",
+  "close": 1384.5,
+  "volume": 10580641.0
+ },
+ {
+  "symbol": "ICICIBANK",
+  "day": "2026-09-11",
+  "close": 1379.300048828125,
+  "volume": 7064417.0
+ },
+ {
+  "symbol": "ICICIBANK",
+  "day": "2026-09-15",
+  "close": 1350.4000244140625,
+  "volume": 10133488.0
+ },
+ {
+  "symbol": "ICICIBANK",
+  "day": "2026-09-16",
+  "close": 1358.800048828125,
+  "volume": 9625762.0
+ },
+ {
+  "symbol": "ICICIBANK",
+  "day": "2026-09-17",
+  "close": 1347.5999755859375,
+  "volume": 7867524.0
+ },
+ {
+  "symbol": "ICICIBANK",
+  "day": "2026-09-18",
+  "close": 1338.9000244140625,
+  "volume": 7509409.0
+ },
+ {
+  "symbol": "ICICIBANK",
+  "day": "2026-09-21",
+  "close": 1345.0,
+  "volume": 5705598.0
+ },
+ {
+  "symbol": "ICICIBANK",
+  "day": "2026-09-22",
+  "close": 1339.5999755859375,
+  "volume": 6433249.0
+ },
+ {
+  "symbol": "ICICIBANK",
+  "day": "2026-09-23",
+  "close": 1340.0,
+  "volume": 4758314.0
+ },
+ {
+  "symbol": "ICICIBANK",
+  "day": "2026-09-24",
+  "close": 1334.5,
+  "volume": 8653920.0
+ },
+ {
+  "symbol": "ICICIBANK",
+  "day": "2026-09-25",
+  "close": 1326.800048828125,
+  "volume": 10841310.0
+ },
+ {
+  "symbol": "ICICIBANK",
+  "day": "2026-09-28",
+  "close": 1302.0,
+  "volume": 6327946.0
+ },
+ {
+  "symbol": "ICICIBANK",
+  "day": "2026-09-29",
+  "close": 1292.199951171875,
+  "volume": 14811396.0
+ },
+ {
+  "symbol": "ICICIBANK",
+  "day": "2026-09-30",
+  "close": 1321.699951171875,
+  "volume": 14095232.0
+ },
+ {
+  "symbol": "ICICIBANK",
+  "day": "2026-10-01",
+  "close": 1310.5999755859375,
+  "volume": 13163495.0
+ },
+ {
+  "symbol": "ICICIBANK",
+  "day": "2026-10-05",
+  "close": 1332.0,
+  "volume": 13223493.0
+ },
+ {
+  "symbol": "ICICIBANK",
+  "day": "2026-10-06",
+  "close": 1342.800048828125,
+  "volume": 12201451.0
+ },
+ {
+  "symbol": "ICICIBANK",
+  "day": "2026-10-07",
+  "close": 1357.5,
+  "volume": 14774121.0
+ },
+ {
+  "symbol": "ICICIBANK",
+  "day": "2026-10-08",
+  "close": 1349.0,
+  "volume": 11277755.0
+ },
+ {
+  "symbol": "ICICIBANK",
+  "day": "2026-10-09",
+  "close": 1355.0,
+  "volume": 5507667.0
+ },
+ {
+  "symbol": "ICICIBANK",
+  "day": "2026-10-12",
+  "close": 1340.0,
+  "volume": 8605258.0
+ },
+ {
+  "symbol": "ICICIBANK",
+  "day": "2026-10-13",
+  "close": 1360.199951171875,
+  "volume": 5765182.0
+ },
+ {
+  "symbol": "ICICIBANK",
+  "day": "2026-10-14",
+  "close": 1338.5999755859375,
+  "volume": 8253235.0
+ },
+ {
+  "symbol": "ICICIBANK",
+  "day": "2026-10-15",
+  "close": 1389.4000244140625,
+  "volume": 17551899.0
+ },
+ {
+  "symbol": "ICICIBANK",
+  "day": "2026-10-16",
+  "close": 1397.0,
+  "volume": 14925887.0
+ },
+ {
+  "symbol": "ICICIBANK",
+  "day": "2026-10-19",
+  "close": 1381.0,
+  "volume": 25149396.0
+ },
+ {
+  "symbol": "ICICIBANK",
+  "day": "2026-10-21",
+  "close": 1385.0,
+  "volume": 17537734.0
+ },
+ {
+  "symbol": "ICICIBANK",
+  "day": "2026-10-22",
+  "close": 1398.5,
+  "volume": 16108318.0
+ },
+ {
+  "symbol": "ICICIBANK",
+  "day": "2026-10-23",
+  "close": 1394.199951171875,
+  "volume": 11573221.0
+ },
+ {
+  "symbol": "ICICIBANK",
+  "day": "2026-10-26",
+  "close": 1403.0,
+  "volume": 7936076.0
+ },
+ {
+  "symbol": "ICICIBANK",
+  "day": "2026-10-27",
+  "close": 1386.9000244140625,
+  "volume": 16183741.0
+ },
+ {
+  "symbol": "ICICIBANK",
+  "day": "2026-10-28",
+  "close": 1377.5999755859375,
+  "volume": 9519327.0
+ },
+ {
+  "symbol": "ICICIBANK",
+  "day": "2026-10-29",
+  "close": 1386.5999755859375,
+  "volume": 11553461.0
+ },
+ {
+  "symbol": "ICICIBANK",
+  "day": "2026-10-30",
+  "close": 1398.0,
+  "volume": 10523907.0
+ },
+ {
+  "symbol": "ICICIBANK",
+  "day": "2026-11-02",
+  "close": 1387.4000244140625,
+  "volume": 9043608.0
+ },
+ {
+  "symbol": "ICICIBANK",
+  "day": "2026-11-03",
+  "close": 1424.5,
+  "volume": 17496620.0
+ },
+ {
+  "symbol": "ICICIBANK",
+  "day": "2026-11-04",
+  "close": 1424.0999755859375,
+  "volume": 10606471.0
+ },
+ {
+  "symbol": "ICICIBANK",
+  "day": "2026-11-05",
+  "close": 1500.0,
+  "volume": 38324323.0
+ },
+ {
+  "symbol": "ICICIBANK",
+  "day": "2026-11-06",
+  "close": 1571.199951171875,
+  "volume": 40383259.0
+ },
+ {
+  "symbol": "ICICIBANK",
+  "day": "2026-11-09",
+  "close": 1589.0,
+  "volume": 27542158.0
+ },
+ {
+  "symbol": "ICICIBANK",
+  "day": "2026-11-11",
+  "close": 1571.5999755859375,
+  "volume": 29190011.0
+ },
+ {
+  "symbol": "ICICIBANK",
+  "day": "2026-11-12",
+  "close": 1590.0,
+  "volume": 16293900.0
+ },
+ {
+  "symbol": "ICICIBANK",
+  "day": "2026-11-13",
+  "close": 1583.5999755859375,
+  "volume": 11440109.0
+ },
+ {
+  "symbol": "BAJFINANCE",
+  "day": "2026-09-08",
+  "close": 1054.0999755859375,
+  "volume": 3608327.0
+ },
+ {
+  "symbol": "BAJFINANCE",
+  "day": "2026-09-09",
+  "close": 1039.300048828125,
+  "volume": 9244698.0
+ },
+ {
+  "symbol": "BAJFINANCE",
+  "day": "2026-09-10",
+  "close": 1043.5,
+  "volume": 3902988.0
+ },
+ {
+  "symbol": "BAJFINANCE",
+  "day": "2026-09-11",
+  "close": 1034.5,
+  "volume": 5411299.0
+ },
+ {
+  "symbol": "BAJFINANCE",
+  "day": "2026-09-15",
+  "close": 1009.2000122070312,
+  "volume": 5792124.0
+ },
+ {
+  "symbol": "BAJFINANCE",
+  "day": "2026-09-16",
+  "close": 1006.2000122070312,
+  "volume": 4190272.0
+ },
+ {
+  "symbol": "BAJFINANCE",
+  "day": "2026-09-17",
+  "close": 1015.0,
+  "volume": 4816547.0
+ },
+ {
+  "symbol": "BAJFINANCE",
+  "day": "2026-09-18",
+  "close": 1040.300048828125,
+  "volume": 8201656.0
+ },
+ {
+  "symbol": "BAJFINANCE",
+  "day": "2026-09-21",
+  "close": 1021.2999877929688,
+  "volume": 4170558.0
+ },
+ {
+  "symbol": "BAJFINANCE",
+  "day": "2026-09-22",
+  "close": 1008.7999877929688,
+  "volume": 4581750.0
+ },
+ {
+  "symbol": "BAJFINANCE",
+  "day": "2026-09-23",
+  "close": 1043.199951171875,
+  "volume": 8618523.0
+ },
+ {
+  "symbol": "BAJFINANCE",
+  "day": "2026-09-24",
+  "close": 982.0,
+  "volume": 13385656.0
+ },
+ {
+  "symbol": "BAJFINANCE",
+  "day": "2026-09-25",
+  "close": 996.9000244140625,
+  "volume": 5467794.0
+ },
+ {
+  "symbol": "BAJFINANCE",
+  "day": "2026-09-28",
+  "close": 985.0,
+  "volume": 7707443.0
+ },
+ {
+  "symbol": "BAJFINANCE",
+  "day": "2026-09-29",
+  "close": 973.7999877929688,
+  "volume": 8612123.0
+ },
+ {
+  "symbol": "BAJFINANCE",
+  "day": "2026-09-30",
+  "close": 959.4000244140625,
+  "volume": 6625616.0
+ },
+ {
+  "symbol": "BAJFINANCE",
+  "day": "2026-10-01",
+  "close": 948.2999877929688,
+  "volume": 5698769.0
+ },
+ {
+  "symbol": "BAJFINANCE",
+  "day": "2026-10-05",
+  "close": 970.0,
+  "volume": 12682669.0
+ },
+ {
+  "symbol": "BAJFINANCE",
+  "day": "2026-10-06",
+  "close": 963.0999755859375,
+  "volume": 4380406.0
+ },
+ {
+  "symbol": "BAJFINANCE",
+  "day": "2026-10-07",
+  "close": 963.8499755859375,
+  "volume": 11415155.0
+ },
+ {
+  "symbol": "BAJFINANCE",
+  "day": "2026-10-08",
+  "close": 955.9500122070312,
+  "volume": 9368412.0
+ },
+ {
+  "symbol": "BAJFINANCE",
+  "day": "2026-10-09",
+  "close": 960.0,
+  "volume": 7684275.0
+ },
+ {
+  "symbol": "BAJFINANCE",
+  "day": "2026-10-12",
+  "close": 957.25,
+  "volume": 5044925.0
+ },
+ {
+  "symbol": "BAJFINANCE",
+  "day": "2026-10-13",
+  "close": 982.75,
+  "volume": 7559515.0
+ },
+ {
+  "symbol": "BAJFINANCE",
+  "day": "2026-10-14",
+  "close": 957.0,
+  "volume": 7139305.0
+ },
+ {
+  "symbol": "BAJFINANCE",
+  "day": "2026-10-15",
+  "close": 965.25,
+  "volume": 10802450.0
+ },
+ {
+  "symbol": "BAJFINANCE",
+  "day": "2026-10-16",
+  "close": 982.0999755859375,
+  "volume": 7810809.0
+ },
+ {
+  "symbol": "BAJFINANCE",
+  "day": "2026-10-19",
+  "close": 957.3499755859375,
+  "volume": 8308852.0
+ },
+ {
+  "symbol": "BAJFINANCE",
+  "day": "2026-10-21",
+  "close": 926.0,
+  "volume": 18557070.0
+ },
+ {
+  "symbol": "BAJFINANCE",
+  "day": "2026-10-22",
+  "close": 942.0999755859375,
+  "volume": 10621523.0
+ },
+ {
+  "symbol": "BAJFINANCE",
+  "day": "2026-10-23",
+  "close": 928.9500122070312,
+  "volume": 6270760.0
+ },
+ {
+  "symbol": "BAJFINANCE",
+  "day": "2026-10-26",
+  "close": 918.7000122070312,
+  "volume": 3976714.0
+ },
+ {
+  "symbol": "BAJFINANCE",
+  "day": "2026-10-27",
+  "close": 912.0,
+  "volume": 6233563.0
+ },
+ {
+  "symbol": "BAJFINANCE",
+  "day": "2026-10-28",
+  "close": 917.25,
+  "volume": 5460928.0
+ },
+ {
+  "symbol": "BAJFINANCE",
+  "day": "2026-10-29",
+  "close": 938.9000244140625,
+  "volume": 8659753.0
+ },
+ {
+  "symbol": "BAJFINANCE",
+  "day": "2026-10-30",
+  "close": 939.0999755859375,
+  "volume": 9334765.0
+ },
+ {
+  "symbol": "BAJFINANCE",
+  "day": "2026-11-02",
+  "close": 959.4000244140625,
+  "volume": 6645450.0
+ },
+ {
+  "symbol": "BAJFINANCE",
+  "day": "2026-11-03",
+  "close": 970.0,
+  "volume": 7531281.0
+ },
+ {
+  "symbol": "BAJFINANCE",
+  "day": "2026-11-04",
+  "close": 994.0,
+  "volume": 14416253.0
+ },
+ {
+  "symbol": "BAJFINANCE",
+  "day": "2026-11-05",
+  "close": 1070.0,
+  "volume": 29819613.0
+ },
+ {
+  "symbol": "BAJFINANCE",
+  "day": "2026-11-06",
+  "close": 1087.75,
+  "volume": 9053404.0
+ },
+ {
+  "symbol": "BAJFINANCE",
+  "day": "2026-11-09",
+  "close": 1064.8499755859375,
+  "volume": 9203283.0
+ },
+ {
+  "symbol": "BAJFINANCE",
+  "day": "2026-11-11",
+  "close": 1078.800048828125,
+  "volume": 9276361.0
+ },
+ {
+  "symbol": "BAJFINANCE",
+  "day": "2026-11-12",
+  "close": 1115.0,
+  "volume": 11872744.0
+ },
+ {
+  "symbol": "BAJFINANCE",
+  "day": "2026-11-13",
+  "close": 1117.0,
+  "volume": 11898219.0
+ },
+ {
+  "symbol": "INFY",
+  "day": "2026-09-08",
+  "close": 1082.0,
+  "volume": 6269037.0
+ },
+ {
+  "symbol": "INFY",
+  "day": "2026-09-09",
+  "close": 1035.0,
+  "volume": 13530457.0
+ },
+ {
+  "symbol": "INFY",
+  "day": "2026-09-10",
+  "close": 1036.5,
+  "volume": 8998529.0
+ },
+ {
+  "symbol": "INFY",
+  "day": "2026-09-11",
+  "close": 1037.699951171875,
+  "volume": 6168088.0
+ },
+ {
+  "symbol": "INFY",
+  "day": "2026-09-15",
+  "close": 1077.0,
+  "volume": 14816117.0
+ },
+ {
+  "symbol": "INFY",
+  "day": "2026-09-16",
+  "close": 1060.0,
+  "volume": 6230590.0
+ },
+ {
+  "symbol": "INFY",
+  "day": "2026-09-17",
+  "close": 1058.5999755859375,
+  "volume": 5469865.0
+ },
+ {
+  "symbol": "INFY",
+  "day": "2026-09-18",
+  "close": 1051.4000244140625,
+  "volume": 22124953.0
+ },
+ {
+  "symbol": "INFY",
+  "day": "2026-09-21",
+  "close": 1038.5,
+  "volume": 6074358.0
+ },
+ {
+  "symbol": "INFY",
+  "day": "2026-09-22",
+  "close": 1029.4000244140625,
+  "volume": 9341109.0
+ },
+ {
+  "symbol": "INFY",
+  "day": "2026-09-23",
+  "close": 1020.5,
+  "volume": 5108734.0
+ },
+ {
+  "symbol": "INFY",
+  "day": "2026-09-24",
+  "close": 1014.5,
+  "volume": 6891893.0
+ },
+ {
+  "symbol": "INFY",
+  "day": "2026-09-25",
+  "close": 1000.2000122070312,
+  "volume": 10240700.0
+ },
+ {
+  "symbol": "INFY",
+  "day": "2026-09-28",
+  "close": 1003.2000122070312,
+  "volume": 8567672.0
+ },
+ {
+  "symbol": "INFY",
+  "day": "2026-09-29",
+  "close": 1015.4000244140625,
+  "volume": 12992711.0
+ },
+ {
+  "symbol": "INFY",
+  "day": "2026-09-30",
+  "close": 994.0999755859375,
+  "volume": 13508984.0
+ },
+ {
+  "symbol": "INFY",
+  "day": "2026-10-01",
+  "close": 1035.0,
+  "volume": 15166446.0
+ },
+ {
+  "symbol": "INFY",
+  "day": "2026-10-05",
+  "close": 1020.5,
+  "volume": 12126808.0
+ },
+ {
+  "symbol": "INFY",
+  "day": "2026-10-06",
+  "close": 1013.8499755859375,
+  "volume": 8252213.0
+ },
+ {
+  "symbol": "INFY",
+  "day": "2026-10-07",
+  "close": 992.0,
+  "volume": 7493993.0
+ },
+ {
+  "symbol": "INFY",
+  "day": "2026-10-08",
+  "close": 997.0,
+  "volume": 14847874.0
+ },
+ {
+  "symbol": "INFY",
+  "day": "2026-10-09",
+  "close": 1023.4000244140625,
+  "volume": 14094234.0
+ },
+ {
+  "symbol": "INFY",
+  "day": "2026-10-12",
+  "close": 1020.0,
+  "volume": 8429312.0
+ },
+ {
+  "symbol": "INFY",
+  "day": "2026-10-13",
+  "close": 1062.0999755859375,
+  "volume": 21781113.0
+ },
+ {
+  "symbol": "INFY",
+  "day": "2026-10-14",
+  "close": 1088.0,
+  "volume": 22113407.0
+ },
+ {
+  "symbol": "INFY",
+  "day": "2026-10-15",
+  "close": 1110.0,
+  "volume": 16012759.0
+ },
+ {
+  "symbol": "INFY",
+  "day": "2026-10-16",
+  "close": 1161.199951171875,
+  "volume": 25566304.0
+ },
+ {
+  "symbol": "INFY",
+  "day": "2026-10-19",
+  "close": 1130.699951171875,
+  "volume": 13258477.0
+ },
+ {
+  "symbol": "INFY",
+  "day": "2026-10-21",
+  "close": 1168.0,
+  "volume": 18597997.0
+ },
+ {
+  "symbol": "INFY",
+  "day": "2026-10-22",
+  "close": 1153.3499755859375,
+  "volume": 17007168.0
+ },
+ {
+  "symbol": "INFY",
+  "day": "2026-10-23",
+  "close": 1153.800048828125,
+  "volume": 33044499.0
+ },
+ {
+  "symbol": "INFY",
+  "day": "2026-10-26",
+  "close": 1166.0,
+  "volume": 25964569.0
+ },
+ {
+  "symbol": "INFY",
+  "day": "2026-10-27",
+  "close": 1163.0,
+  "volume": 20117848.0
+ },
+ {
+  "symbol": "INFY",
+  "day": "2026-10-28",
+  "close": 1123.1500244140625,
+  "volume": 15636449.0
+ },
+ {
+  "symbol": "INFY",
+  "day": "2026-10-29",
+  "close": 1146.5,
+  "volume": 14048472.0
+ },
+ {
+  "symbol": "INFY",
+  "day": "2026-10-30",
+  "close": 1185.0,
+  "volume": 13030713.0
+ },
+ {
+  "symbol": "INFY",
+  "day": "2026-11-02",
+  "close": 1161.0,
+  "volume": 12918064.0
+ },
+ {
+  "symbol": "INFY",
+  "day": "2026-11-03",
+  "close": 1148.0999755859375,
+  "volume": 10495455.0
+ },
+ {
+  "symbol": "INFY",
+  "day": "2026-11-04",
+  "close": 1128.199951171875,
+  "volume": 9333345.0
+ },
+ {
+  "symbol": "INFY",
+  "day": "2026-11-05",
+  "close": 1167.4000244140625,
+  "volume": 10174914.0
+ },
+ {
+  "symbol": "INFY",
+  "day": "2026-11-06",
+  "close": 1181.4000244140625,
+  "volume": 15301109.0
+ },
+ {
+  "symbol": "INFY",
+  "day": "2026-11-09",
+  "close": 1154.0999755859375,
+  "volume": 10099639.0
+ },
+ {
+  "symbol": "INFY",
+  "day": "2026-11-11",
+  "close": 1155.0,
+  "volume": 9148933.0
+ },
+ {
+  "symbol": "INFY",
+  "day": "2026-11-12",
+  "close": 1151.199951171875,
+  "volume": 7562749.0
+ },
+ {
+  "symbol": "INFY",
+  "day": "2026-11-13",
+  "close": 1141.5,
+  "volume": 5936229.0
+ },
+ {
+  "symbol": "TCS",
+  "day": "2026-09-08",
+  "close": 2255.5,
+  "volume": 2148114.0
+ },
+ {
+  "symbol": "TCS",
+  "day": "2026-09-09",
+  "close": 2208.0,
+  "volume": 3370071.0
+ },
+ {
+  "symbol": "TCS",
+  "day": "2026-09-10",
+  "close": 2204.10009765625,
+  "volume": 2490912.0
+ },
+ {
+  "symbol": "TCS",
+  "day": "2026-09-11",
+  "close": 2200.800048828125,
+  "volume": 2634124.0
+ },
+ {
+  "symbol": "TCS",
+  "day": "2026-09-15",
+  "close": 2251.0,
+  "volume": 5406210.0
+ },
+ {
+  "symbol": "TCS",
+  "day": "2026-09-16",
+  "close": 2188.800048828125,
+  "volume": 2763709.0
+ },
+ {
+  "symbol": "TCS",
+  "day": "2026-09-17",
+  "close": 2190.0,
+  "volume": 3295917.0
+ },
+ {
+  "symbol": "TCS",
+  "day": "2026-09-18",
+  "close": 2105.0,
+  "volume": 6875428.0
+ },
+ {
+  "symbol": "TCS",
+  "day": "2026-09-21",
+  "close": 2128.699951171875,
+  "volume": 2330811.0
+ },
+ {
+  "symbol": "TCS",
+  "day": "2026-09-22",
+  "close": 2105.0,
+  "volume": 3641623.0
+ },
+ {
+  "symbol": "TCS",
+  "day": "2026-09-23",
+  "close": 2089.60009765625,
+  "volume": 2228402.0
+ },
+ {
+  "symbol": "TCS",
+  "day": "2026-09-24",
+  "close": 2087.0,
+  "volume": 1760662.0
+ },
+ {
+  "symbol": "TCS",
+  "day": "2026-09-25",
+  "close": 2082.0,
+  "volume": 3342195.0
+ },
+ {
+  "symbol": "TCS",
+  "day": "2026-09-28",
+  "close": 2070.699951171875,
+  "volume": 2457049.0
+ },
+ {
+  "symbol": "TCS",
+  "day": "2026-09-29",
+  "close": 2032.4000244140625,
+  "volume": 4437783.0
+ },
+ {
+  "symbol": "TCS",
+  "day": "2026-09-30",
+  "close": 2050.60009765625,
+  "volume": 3656425.0
+ },
+ {
+  "symbol": "TCS",
+  "day": "2026-10-01",
+  "close": 2075.0,
+  "volume": 3428501.0
+ },
+ {
+  "symbol": "TCS",
+  "day": "2026-10-05",
+  "close": 2114.39990234375,
+  "volume": 5270768.0
+ },
+ {
+  "symbol": "TCS",
+  "day": "2026-10-06",
+  "close": 2100.0,
+  "volume": 2382510.0
+ },
+ {
+  "symbol": "TCS",
+  "day": "2026-10-07",
+  "close": 2080.300048828125,
+  "volume": 1349758.0
+ },
+ {
+  "symbol": "TCS",
+  "day": "2026-10-08",
+  "close": 2076.0,
+  "volume": 4288031.0
+ },
+ {
+  "symbol": "TCS",
+  "day": "2026-10-09",
+  "close": 2156.0,
+  "volume": 11692314.0
+ },
+ {
+  "symbol": "TCS",
+  "day": "2026-10-12",
+  "close": 2125.0,
+  "volume": 3540523.0
+ },
+ {
+  "symbol": "TCS",
+  "day": "2026-10-13",
+  "close": 2269.300048828125,
+  "volume": 11048193.0
+ },
+ {
+  "symbol": "TCS",
+  "day": "2026-10-14",
+  "close": 2304.89990234375,
+  "volume": 12145767.0
+ },
+ {
+  "symbol": "TCS",
+  "day": "2026-10-15",
+  "close": 2350.0,
+  "volume": 9150523.0
+ },
+ {
+  "symbol": "TCS",
+  "day": "2026-10-16",
+  "close": 2465.0,
+  "volume": 12166634.0
+ },
+ {
+  "symbol": "TCS",
+  "day": "2026-10-19",
+  "close": 2460.89990234375,
+  "volume": 8676373.0
+ },
+ {
+  "symbol": "TCS",
+  "day": "2026-10-21",
+  "close": 2529.0,
+  "volume": 5707347.0
+ },
+ {
+  "symbol": "TCS",
+  "day": "2026-10-22",
+  "close": 2506.89990234375,
+  "volume": 4174671.0
+ },
+ {
+  "symbol": "TCS",
+  "day": "2026-10-23",
+  "close": 2530.0,
+  "volume": 6857942.0
+ },
+ {
+  "symbol": "TCS",
+  "day": "2026-10-26",
+  "close": 2535.0,
+  "volume": 4326029.0
+ },
+ {
+  "symbol": "TCS",
+  "day": "2026-10-27",
+  "close": 2496.89990234375,
+  "volume": 4337081.0
+ },
+ {
+  "symbol": "TCS",
+  "day": "2026-10-28",
+  "close": 2460.0,
+  "volume": 2540047.0
+ },
+ {
+  "symbol": "TCS",
+  "day": "2026-10-29",
+  "close": 2478.0,
+  "volume": 3427569.0
+ },
+ {
+  "symbol": "TCS",
+  "day": "2026-10-30",
+  "close": 2502.60009765625,
+  "volume": 3016983.0
+ },
+ {
+  "symbol": "TCS",
+  "day": "2026-11-02",
+  "close": 2501.699951171875,
+  "volume": 2817192.0
+ },
+ {
+  "symbol": "TCS",
+  "day": "2026-11-03",
+  "close": 2499.10009765625,
+  "volume": 3488517.0
+ },
+ {
+  "symbol": "TCS",
+  "day": "2026-11-04",
+  "close": 2436.0,
+  "volume": 3142051.0
+ },
+ {
+  "symbol": "TCS",
+  "day": "2026-11-05",
+  "close": 2495.699951171875,
+  "volume": 6767948.0
+ },
+ {
+  "symbol": "TCS",
+  "day": "2026-11-06",
+  "close": 2498.5,
+  "volume": 4922308.0
+ },
+ {
+  "symbol": "TCS",
+  "day": "2026-11-09",
+  "close": 2475.39990234375,
+  "volume": 2897701.0
+ },
+ {
+  "symbol": "TCS",
+  "day": "2026-11-11",
+  "close": 2472.10009765625,
+  "volume": 4013371.0
+ },
+ {
+  "symbol": "TCS",
+  "day": "2026-11-12",
+  "close": 2442.39990234375,
+  "volume": 2138619.0
+ },
+ {
+  "symbol": "TCS",
+  "day": "2026-11-13",
+  "close": 2407.5,
+  "volume": 3344738.0
+ },
+ {
+  "symbol": "HINDUNILVR",
+  "day": "2026-09-08",
+  "close": 1980.0,
+  "volume": 1256067.0
+ },
+ {
+  "symbol": "HINDUNILVR",
+  "day": "2026-09-09",
+  "close": 1945.0,
+  "volume": 1455307.0
+ },
+ {
+  "symbol": "HINDUNILVR",
+  "day": "2026-09-10",
+  "close": 1942.300048828125,
+  "volume": 1232506.0
+ },
+ {
+  "symbol": "HINDUNILVR",
+  "day": "2026-09-11",
+  "close": 1927.0,
+  "volume": 1100313.0
+ },
+ {
+  "symbol": "HINDUNILVR",
+  "day": "2026-09-15",
+  "close": 1938.0999755859375,
+  "volume": 1715702.0
+ },
+ {
+  "symbol": "HINDUNILVR",
+  "day": "2026-09-16",
+  "close": 1962.0,
+  "volume": 1013304.0
+ },
+ {
+  "symbol": "HINDUNILVR",
+  "day": "2026-09-17",
+  "close": 1942.199951171875,
+  "volume": 1171388.0
+ },
+ {
+  "symbol": "HINDUNILVR",
+  "day": "2026-09-18",
+  "close": 1932.0,
+  "volume": 1994635.0
+ },
+ {
+  "symbol": "HINDUNILVR",
+  "day": "2026-09-21",
+  "close": 1947.0,
+  "volume": 864547.0
+ },
+ {
+  "symbol": "HINDUNILVR",
+  "day": "2026-09-22",
+  "close": 1933.800048828125,
+  "volume": 1023040.0
+ },
+ {
+  "symbol": "HINDUNILVR",
+  "day": "2026-09-23",
+  "close": 1950.0,
+  "volume": 870342.0
+ },
+ {
+  "symbol": "HINDUNILVR",
+  "day": "2026-09-24",
+  "close": 1933.5,
+  "volume": 1257687.0
+ },
+ {
+  "symbol": "HINDUNILVR",
+  "day": "2026-09-25",
+  "close": 1942.9000244140625,
+  "volume": 732074.0
+ },
+ {
+  "symbol": "HINDUNILVR",
+  "day": "2026-09-28",
+  "close": 1896.0,
+  "volume": 1852879.0
+ },
+ {
+  "symbol": "HINDUNILVR",
+  "day": "2026-09-29",
+  "close": 1863.800048828125,
+  "volume": 2057852.0
+ },
+ {
+  "symbol": "HINDUNILVR",
+  "day": "2026-09-30",
+  "close": 1879.0999755859375,
+  "volume": 1430335.0
+ },
+ {
+  "symbol": "HINDUNILVR",
+  "day": "2026-10-01",
+  "close": 1836.0,
+  "volume": 1331680.0
+ },
+ {
+  "symbol": "HINDUNILVR",
+  "day": "2026-10-05",
+  "close": 1838.4000244140625,
+  "volume": 975071.0
+ },
+ {
+  "symbol": "HINDUNILVR",
+  "day": "2026-10-06",
+  "close": 1895.199951171875,
+  "volume": 1576062.0
+ },
+ {
+  "symbol": "HINDUNILVR",
+  "day": "2026-10-07",
+  "close": 1865.4000244140625,
+  "volume": 620459.0
+ },
+ {
+  "symbol": "HINDUNILVR",
+  "day": "2026-10-08",
+  "close": 1844.5,
+  "volume": 2027849.0
+ },
+ {
+  "symbol": "HINDUNILVR",
+  "day": "2026-10-09",
+  "close": 1856.699951171875,
+  "volume": 1300930.0
+ },
+ {
+  "symbol": "HINDUNILVR",
+  "day": "2026-10-12",
+  "close": 1820.699951171875,
+  "volume": 1479326.0
+ },
+ {
+  "symbol": "HINDUNILVR",
+  "day": "2026-10-13",
+  "close": 1875.5,
+  "volume": 2155611.0
+ },
+ {
+  "symbol": "HINDUNILVR",
+  "day": "2026-10-14",
+  "close": 1895.5,
+  "volume": 3647300.0
+ },
+ {
+  "symbol": "HINDUNILVR",
+  "day": "2026-10-15",
+  "close": 1897.0999755859375,
+  "volume": 1308283.0
+ },
+ {
+  "symbol": "HINDUNILVR",
+  "day": "2026-10-16",
+  "close": 1893.800048828125,
+  "volume": 1258552.0
+ },
+ {
+  "symbol": "HINDUNILVR",
+  "day": "2026-10-19",
+  "close": 1853.199951171875,
+  "volume": 1226363.0
+ },
+ {
+  "symbol": "HINDUNILVR",
+  "day": "2026-10-21",
+  "close": 1850.199951171875,
+  "volume": 664074.0
+ },
+ {
+  "symbol": "HINDUNILVR",
+  "day": "2026-10-22",
+  "close": 1828.300048828125,
+  "volume": 1012306.0
+ },
+ {
+  "symbol": "HINDUNILVR",
+  "day": "2026-10-23",
+  "close": 1814.699951171875,
+  "volume": 1192732.0
+ },
+ {
+  "symbol": "HINDUNILVR",
+  "day": "2026-10-26",
+  "close": 1818.5999755859375,
+  "volume": 672093.0
+ },
+ {
+  "symbol": "HINDUNILVR",
+  "day": "2026-10-27",
+  "close": 1818.0,
+  "volume": 3796225.0
+ },
+ {
+  "symbol": "HINDUNILVR",
+  "day": "2026-10-28",
+  "close": 1815.800048828125,
+  "volume": 3364735.0
+ },
+ {
+  "symbol": "HINDUNILVR",
+  "day": "2026-10-29",
+  "close": 1858.199951171875,
+  "volume": 2653805.0
+ },
+ {
+  "symbol": "HINDUNILVR",
+  "day": "2026-10-30",
+  "close": 1864.5999755859375,
+  "volume": 1597400.0
+ },
+ {
+  "symbol": "HINDUNILVR",
+  "day": "2026-11-02",
+  "close": 1898.300048828125,
+  "volume": 990685.0
+ },
+ {
+  "symbol": "HINDUNILVR",
+  "day": "2026-11-03",
+  "close": 1962.800048828125,
+  "volume": 1722945.0
+ },
+ {
+  "symbol": "HINDUNILVR",
+  "day": "2026-11-04",
+  "close": 1977.0999755859375,
+  "volume": 1770643.0
+ },
+ {
+  "symbol": "HINDUNILVR",
+  "day": "2026-11-05",
+  "close": 1982.0,
+  "volume": 1221871.0
+ },
+ {
+  "symbol": "HINDUNILVR",
+  "day": "2026-11-06",
+  "close": 1998.4000244140625,
+  "volume": 1058803.0
+ },
+ {
+  "symbol": "HINDUNILVR",
+  "day": "2026-11-09",
+  "close": 1990.300048828125,
+  "volume": 1457165.0
+ },
+ {
+  "symbol": "HINDUNILVR",
+  "day": "2026-11-11",
+  "close": 2022.4000244140625,
+  "volume": 1701295.0
+ },
+ {
+  "symbol": "HINDUNILVR",
+  "day": "2026-11-12",
+  "close": 1974.0,
+  "volume": 1804468.0
+ },
+ {
+  "symbol": "HINDUNILVR",
+  "day": "2026-11-13",
+  "close": 1992.9000244140625,
+  "volume": 1268888.0
+ },
+ {
+  "symbol": "ASIANPAINT",
+  "day": "2026-09-08",
+  "close": 2481.60009765625,
+  "volume": 373248.0
+ },
+ {
+  "symbol": "ASIANPAINT",
+  "day": "2026-09-09",
+  "close": 2489.0,
+  "volume": 432840.0
+ },
+ {
+  "symbol": "ASIANPAINT",
+  "day": "2026-09-10",
+  "close": 2498.10009765625,
+  "volume": 549332.0
+ },
+ {
+  "symbol": "ASIANPAINT",
+  "day": "2026-09-11",
+  "close": 2472.5,
+  "volume": 653006.0
+ },
+ {
+  "symbol": "ASIANPAINT",
+  "day": "2026-09-15",
+  "close": 2402.800048828125,
+  "volume": 539643.0
+ },
+ {
+  "symbol": "ASIANPAINT",
+  "day": "2026-09-16",
+  "close": 2416.60009765625,
+  "volume": 591671.0
+ },
+ {
+  "symbol": "ASIANPAINT",
+  "day": "2026-09-17",
+  "close": 2454.0,
+  "volume": 486007.0
+ },
+ {
+  "symbol": "ASIANPAINT",
+  "day": "2026-09-18",
+  "close": 2451.300048828125,
+  "volume": 1000730.0
+ },
+ {
+  "symbol": "ASIANPAINT",
+  "day": "2026-09-21",
+  "close": 2440.300048828125,
+  "volume": 268147.0
+ },
+ {
+  "symbol": "ASIANPAINT",
+  "day": "2026-09-22",
+  "close": 2448.5,
+  "volume": 414715.0
+ },
+ {
+  "symbol": "ASIANPAINT",
+  "day": "2026-09-23",
+  "close": 2455.0,
+  "volume": 398823.0
+ },
+ {
+  "symbol": "ASIANPAINT",
+  "day": "2026-09-24",
+  "close": 2392.699951171875,
+  "volume": 259577.0
+ },
+ {
+  "symbol": "ASIANPAINT",
+  "day": "2026-09-25",
+  "close": 2444.0,
+  "volume": 426982.0
+ },
+ {
+  "symbol": "ASIANPAINT",
+  "day": "2026-09-28",
+  "close": 2420.0,
+  "volume": 1097754.0
+ },
+ {
+  "symbol": "ASIANPAINT",
+  "day": "2026-09-29",
+  "close": 2415.0,
+  "volume": 909789.0
+ },
+ {
+  "symbol": "ASIANPAINT",
+  "day": "2026-09-30",
+  "close": 2402.60009765625,
+  "volume": 553695.0
+ },
+ {
+  "symbol": "ASIANPAINT",
+  "day": "2026-10-01",
+  "close": 2407.0,
+  "volume": 1005836.0
+ },
+ {
+  "symbol": "ASIANPAINT",
+  "day": "2026-10-05",
+  "close": 2366.0,
+  "volume": 916254.0
+ },
+ {
+  "symbol": "ASIANPAINT",
+  "day": "2026-10-06",
+  "close": 2424.199951171875,
+  "volume": 439473.0
+ },
+ {
+  "symbol": "ASIANPAINT",
+  "day": "2026-10-07",
+  "close": 2372.10009765625,
+  "volume": 522763.0
+ },
+ {
+  "symbol": "ASIANPAINT",
+  "day": "2026-10-08",
+  "close": 2311.60009765625,
+  "volume": 652405.0
+ },
+ {
+  "symbol": "ASIANPAINT",
+  "day": "2026-10-09",
+  "close": 2339.10009765625,
+  "volume": 248707.0
+ },
+ {
+  "symbol": "ASIANPAINT",
+  "day": "2026-10-12",
+  "close": 2331.0,
+  "volume": 396380.0
+ },
+ {
+  "symbol": "ASIANPAINT",
+  "day": "2026-10-13",
+  "close": 2376.0,
+  "volume": 617316.0
+ },
+ {
+  "symbol": "ASIANPAINT",
+  "day": "2026-10-14",
+  "close": 2344.699951171875,
+  "volume": 700495.0
+ },
+ {
+  "symbol": "ASIANPAINT",
+  "day": "2026-10-15",
+  "close": 2350.0,
+  "volume": 833000.0
+ },
+ {
+  "symbol": "ASIANPAINT",
+  "day": "2026-10-16",
+  "close": 2331.89990234375,
+  "volume": 1012228.0
+ },
+ {
+  "symbol": "ASIANPAINT",
+  "day": "2026-10-19",
+  "close": 2330.699951171875,
+  "volume": 497488.0
+ },
+ {
+  "symbol": "ASIANPAINT",
+  "day": "2026-10-21",
+  "close": 2319.39990234375,
+  "volume": 514424.0
+ },
+ {
+  "symbol": "ASIANPAINT",
+  "day": "2026-10-22",
+  "close": 2284.800048828125,
+  "volume": 440415.0
+ },
+ {
+  "symbol": "ASIANPAINT",
+  "day": "2026-10-23",
+  "close": 2307.0,
+  "volume": 836468.0
+ },
+ {
+  "symbol": "ASIANPAINT",
+  "day": "2026-10-26",
+  "close": 2322.0,
+  "volume": 845552.0
+ },
+ {
+  "symbol": "ASIANPAINT",
+  "day": "2026-10-27",
+  "close": 2277.0,
+  "volume": 1043006.0
+ },
+ {
+  "symbol": "ASIANPAINT",
+  "day": "2026-10-28",
+  "close": 2284.60009765625,
+  "volume": 621924.0
+ },
+ {
+  "symbol": "ASIANPAINT",
+  "day": "2026-10-29",
+  "close": 2302.0,
+  "volume": 2521129.0
+ },
+ {
+  "symbol": "ASIANPAINT",
+  "day": "2026-10-30",
+  "close": 2320.0,
+  "volume": 1315150.0
+ },
+ {
+  "symbol": "ASIANPAINT",
+  "day": "2026-11-02",
+  "close": 2344.300048828125,
+  "volume": 789896.0
+ },
+ {
+  "symbol": "ASIANPAINT",
+  "day": "2026-11-03",
+  "close": 2437.800048828125,
+  "volume": 2008963.0
+ },
+ {
+  "symbol": "ASIANPAINT",
+  "day": "2026-11-04",
+  "close": 2418.300048828125,
+  "volume": 1354097.0
+ },
+ {
+  "symbol": "ASIANPAINT",
+  "day": "2026-11-05",
+  "close": 2523.800048828125,
+  "volume": 2383904.0
+ },
+ {
+  "symbol": "ASIANPAINT",
+  "day": "2026-11-06",
+  "close": 2546.0,
+  "volume": 969158.0
+ },
+ {
+  "symbol": "ASIANPAINT",
+  "day": "2026-11-09",
+  "close": 2509.300048828125,
+  "volume": 1001985.0
+ },
+ {
+  "symbol": "ASIANPAINT",
+  "day": "2026-11-11",
+  "close": 2550.300048828125,
+  "volume": 1260836.0
+ },
+ {
+  "symbol": "ASIANPAINT",
+  "day": "2026-11-12",
+  "close": 2536.5,
+  "volume": 817076.0
+ },
+ {
+  "symbol": "ASIANPAINT",
+  "day": "2026-11-13",
+  "close": 2550.0,
+  "volume": 613905.0
+ },
+ {
+  "symbol": "MARUTI",
+  "day": "2026-09-08",
+  "close": 12641.0,
+  "volume": 356860.0
+ },
+ {
+  "symbol": "MARUTI",
+  "day": "2026-09-09",
+  "close": 12618.0,
+  "volume": 534832.0
+ },
+ {
+  "symbol": "MARUTI",
+  "day": "2026-09-10",
+  "close": 12590.0,
+  "volume": 338613.0
+ },
+ {
+  "symbol": "MARUTI",
+  "day": "2026-09-11",
+  "close": 12400.0,
+  "volume": 514868.0
+ },
+ {
+  "symbol": "MARUTI",
+  "day": "2026-09-15",
+  "close": 12231.0,
+  "volume": 286167.0
+ },
+ {
+  "symbol": "MARUTI",
+  "day": "2026-09-16",
+  "close": 12166.0,
+  "volume": 312876.0
+ },
+ {
+  "symbol": "MARUTI",
+  "day": "2026-09-17",
+  "close": 12338.0,
+  "volume": 249064.0
+ },
+ {
+  "symbol": "MARUTI",
+  "day": "2026-09-18",
+  "close": 12103.0,
+  "volume": 659773.0
+ },
+ {
+  "symbol": "MARUTI",
+  "day": "2026-09-21",
+  "close": 12153.0,
+  "volume": 339171.0
+ },
+ {
+  "symbol": "MARUTI",
+  "day": "2026-09-22",
+  "close": 12190.0,
+  "volume": 246724.0
+ },
+ {
+  "symbol": "MARUTI",
+  "day": "2026-09-23",
+  "close": 12230.0,
+  "volume": 220483.0
+ },
+ {
+  "symbol": "MARUTI",
+  "day": "2026-09-24",
+  "close": 11990.0,
+  "volume": 393665.0
+ },
+ {
+  "symbol": "MARUTI",
+  "day": "2026-09-25",
+  "close": 12065.0,
+  "volume": 283642.0
+ },
+ {
+  "symbol": "MARUTI",
+  "day": "2026-09-28",
+  "close": 12008.0,
+  "volume": 301830.0
+ },
+ {
+  "symbol": "MARUTI",
+  "day": "2026-09-29",
+  "close": 11877.0,
+  "volume": 519770.0
+ },
+ {
+  "symbol": "MARUTI",
+  "day": "2026-09-30",
+  "close": 11967.0,
+  "volume": 430286.0
+ },
+ {
+  "symbol": "MARUTI",
+  "day": "2026-10-01",
+  "close": 11386.0,
+  "volume": 885820.0
+ },
+ {
+  "symbol": "MARUTI",
+  "day": "2026-10-05",
+  "close": 11532.0,
+  "volume": 757171.0
+ },
+ {
+  "symbol": "MARUTI",
+  "day": "2026-10-06",
+  "close": 11625.0,
+  "volume": 263958.0
+ },
+ {
+  "symbol": "MARUTI",
+  "day": "2026-10-07",
+  "close": 11450.0,
+  "volume": 628155.0
+ },
+ {
+  "symbol": "MARUTI",
+  "day": "2026-10-08",
+  "close": 11228.0,
+  "volume": 431962.0
+ },
+ {
+  "symbol": "MARUTI",
+  "day": "2026-10-09",
+  "close": 11420.0,
+  "volume": 353177.0
+ },
+ {
+  "symbol": "MARUTI",
+  "day": "2026-10-12",
+  "close": 11315.0,
+  "volume": 323997.0
+ },
+ {
+  "symbol": "MARUTI",
+  "day": "2026-10-13",
+  "close": 11245.0,
+  "volume": 761548.0
+ },
+ {
+  "symbol": "MARUTI",
+  "day": "2026-10-14",
+  "close": 11178.0,
+  "volume": 463850.0
+ },
+ {
+  "symbol": "MARUTI",
+  "day": "2026-10-15",
+  "close": 11445.0,
+  "volume": 513644.0
+ },
+ {
+  "symbol": "MARUTI",
+  "day": "2026-10-16",
+  "close": 11489.0,
+  "volume": 408961.0
+ },
+ {
+  "symbol": "MARUTI",
+  "day": "2026-10-19",
+  "close": 11475.0,
+  "volume": 453832.0
+ },
+ {
+  "symbol": "MARUTI",
+  "day": "2026-10-21",
+  "close": 11200.0,
+  "volume": 393314.0
+ },
+ {
+  "symbol": "MARUTI",
+  "day": "2026-10-22",
+  "close": 11170.0,
+  "volume": 407490.0
+ },
+ {
+  "symbol": "MARUTI",
+  "day": "2026-10-23",
+  "close": 11230.0,
+  "volume": 333253.0
+ },
+ {
+  "symbol": "MARUTI",
+  "day": "2026-10-26",
+  "close": 11220.0,
+  "volume": 489223.0
+ },
+ {
+  "symbol": "MARUTI",
+  "day": "2026-10-27",
+  "close": 11450.0,
+  "volume": 426915.0
+ },
+ {
+  "symbol": "MARUTI",
+  "day": "2026-10-28",
+  "close": 11579.0,
+  "volume": 938032.0
+ },
+ {
+  "symbol": "MARUTI",
+  "day": "2026-10-29",
+  "close": 11426.0,
+  "volume": 317248.0
+ },
+ {
+  "symbol": "MARUTI",
+  "day": "2026-10-30",
+  "close": 11397.0,
+  "volume": 280448.0
+ },
+ {
+  "symbol": "MARUTI",
+  "day": "2026-11-02",
+  "close": 11672.0,
+  "volume": 414092.0
+ },
+ {
+  "symbol": "MARUTI",
+  "day": "2026-11-03",
+  "close": 11869.0,
+  "volume": 363875.0
+ },
+ {
+  "symbol": "MARUTI",
+  "day": "2026-11-04",
+  "close": 11995.0,
+  "volume": 581928.0
+ },
+ {
+  "symbol": "MARUTI",
+  "day": "2026-11-05",
+  "close": 12652.0,
+  "volume": 1203576.0
+ },
+ {
+  "symbol": "MARUTI",
+  "day": "2026-11-06",
+  "close": 12750.0,
+  "volume": 923719.0
+ },
+ {
+  "symbol": "MARUTI",
+  "day": "2026-11-09",
+  "close": 12928.0,
+  "volume": 558028.0
+ },
+ {
+  "symbol": "MARUTI",
+  "day": "2026-11-11",
+  "close": 13185.0,
+  "volume": 963516.0
+ },
+ {
+  "symbol": "MARUTI",
+  "day": "2026-11-12",
+  "close": 13024.0,
+  "volume": 720496.0
+ },
+ {
+  "symbol": "MARUTI",
+  "day": "2026-11-13",
+  "close": 12854.0,
+  "volume": 492029.0
+ },
+ {
+  "symbol": "SUNPHARMA",
+  "day": "2026-09-08",
+  "close": 1885.9000244140625,
+  "volume": 1422627.0
+ },
+ {
+  "symbol": "SUNPHARMA",
+  "day": "2026-09-09",
+  "close": 1864.9000244140625,
+  "volume": 1396896.0
+ },
+ {
+  "symbol": "SUNPHARMA",
+  "day": "2026-09-10",
+  "close": 1861.0,
+  "volume": 1178648.0
+ },
+ {
+  "symbol": "SUNPHARMA",
+  "day": "2026-09-11",
+  "close": 1840.0,
+  "volume": 1445071.0
+ },
+ {
+  "symbol": "SUNPHARMA",
+  "day": "2026-09-15",
+  "close": 1835.0,
+  "volume": 1437151.0
+ },
+ {
+  "symbol": "SUNPHARMA",
+  "day": "2026-09-16",
+  "close": 1853.5,
+  "volume": 1370607.0
+ },
+ {
+  "symbol": "SUNPHARMA",
+  "day": "2026-09-17",
+  "close": 1867.300048828125,
+  "volume": 1377506.0
+ },
+ {
+  "symbol": "SUNPHARMA",
+  "day": "2026-09-18",
+  "close": 1837.300048828125,
+  "volume": 2896860.0
+ },
+ {
+  "symbol": "SUNPHARMA",
+  "day": "2026-09-21",
+  "close": 1868.9000244140625,
+  "volume": 2534364.0
+ },
+ {
+  "symbol": "SUNPHARMA",
+  "day": "2026-09-22",
+  "close": 1846.4000244140625,
+  "volume": 1062235.0
+ },
+ {
+  "symbol": "SUNPHARMA",
+  "day": "2026-09-23",
+  "close": 1865.0,
+  "volume": 902514.0
+ },
+ {
+  "symbol": "SUNPHARMA",
+  "day": "2026-09-24",
+  "close": 1849.9000244140625,
+  "volume": 1742885.0
+ },
+ {
+  "symbol": "SUNPHARMA",
+  "day": "2026-09-25",
+  "close": 1852.199951171875,
+  "volume": 683246.0
+ },
+ {
+  "symbol": "SUNPHARMA",
+  "day": "2026-09-28",
+  "close": 1838.0,
+  "volume": 947719.0
+ },
+ {
+  "symbol": "SUNPHARMA",
+  "day": "2026-09-29",
+  "close": 1865.0,
+  "volume": 3083083.0
+ },
+ {
+  "symbol": "SUNPHARMA",
+  "day": "2026-09-30",
+  "close": 1816.5999755859375,
+  "volume": 2401495.0
+ },
+ {
+  "symbol": "SUNPHARMA",
+  "day": "2026-10-01",
+  "close": 1801.0,
+  "volume": 2314700.0
+ },
+ {
+  "symbol": "SUNPHARMA",
+  "day": "2026-10-05",
+  "close": 1779.699951171875,
+  "volume": 1290843.0
+ },
+ {
+  "symbol": "SUNPHARMA",
+  "day": "2026-10-06",
+  "close": 1804.0999755859375,
+  "volume": 1478310.0
+ },
+ {
+  "symbol": "SUNPHARMA",
+  "day": "2026-10-07",
+  "close": 1781.0,
+  "volume": 1150689.0
+ },
+ {
+  "symbol": "SUNPHARMA",
+  "day": "2026-10-08",
+  "close": 1759.800048828125,
+  "volume": 1605236.0
+ },
+ {
+  "symbol": "SUNPHARMA",
+  "day": "2026-10-09",
+  "close": 1760.0,
+  "volume": 1346107.0
+ },
+ {
+  "symbol": "SUNPHARMA",
+  "day": "2026-10-12",
+  "close": 1760.0,
+  "volume": 1141685.0
+ },
+ {
+  "symbol": "SUNPHARMA",
+  "day": "2026-10-13",
+  "close": 1770.699951171875,
+  "volume": 1191057.0
+ },
+ {
+  "symbol": "SUNPHARMA",
+  "day": "2026-10-14",
+  "close": 1746.4000244140625,
+  "volume": 1808782.0
+ },
+ {
+  "symbol": "SUNPHARMA",
+  "day": "2026-10-15",
+  "close": 1764.0,
+  "volume": 1376380.0
+ },
+ {
+  "symbol": "SUNPHARMA",
+  "day": "2026-10-16",
+  "close": 1758.800048828125,
+  "volume": 1522459.0
+ },
+ {
+  "symbol": "SUNPHARMA",
+  "day": "2026-10-19",
+  "close": 1743.0,
+  "volume": 829445.0
+ },
+ {
+  "symbol": "SUNPHARMA",
+  "day": "2026-10-21",
+  "close": 1745.0999755859375,
+  "volume": 2316342.0
+ },
+ {
+  "symbol": "SUNPHARMA",
+  "day": "2026-10-22",
+  "close": 1758.0,
+  "volume": 1778519.0
+ },
+ {
+  "symbol": "SUNPHARMA",
+  "day": "2026-10-23",
+  "close": 1748.0,
+  "volume": 1064528.0
+ },
+ {
+  "symbol": "SUNPHARMA",
+  "day": "2026-10-26",
+  "close": 1740.0,
+  "volume": 1622698.0
+ },
+ {
+  "symbol": "SUNPHARMA",
+  "day": "2026-10-27",
+  "close": 1751.199951171875,
+  "volume": 1547898.0
+ },
+ {
+  "symbol": "SUNPHARMA",
+  "day": "2026-10-28",
+  "close": 1757.5,
+  "volume": 1056767.0
+ },
+ {
+  "symbol": "SUNPHARMA",
+  "day": "2026-10-29",
+  "close": 1761.0,
+  "volume": 1107854.0
+ },
+ {
+  "symbol": "SUNPHARMA",
+  "day": "2026-10-30",
+  "close": 1777.699951171875,
+  "volume": 5130218.0
+ },
+ {
+  "symbol": "SUNPHARMA",
+  "day": "2026-11-02",
+  "close": 1770.0,
+  "volume": 3457791.0
+ },
+ {
+  "symbol": "SUNPHARMA",
+  "day": "2026-11-03",
+  "close": 1769.9000244140625,
+  "volume": 2646691.0
+ },
+ {
+  "symbol": "SUNPHARMA",
+  "day": "2026-11-04",
+  "close": 1773.4000244140625,
+  "volume": 4925315.0
+ },
+ {
+  "symbol": "SUNPHARMA",
+  "day": "2026-11-05",
+  "close": 1829.0,
+  "volume": 3923834.0
+ },
+ {
+  "symbol": "SUNPHARMA",
+  "day": "2026-11-06",
+  "close": 1860.0,
+  "volume": 2348251.0
+ },
+ {
+  "symbol": "SUNPHARMA",
+  "day": "2026-11-09",
+  "close": 1904.5,
+  "volume": 3127099.0
+ },
+ {
+  "symbol": "SUNPHARMA",
+  "day": "2026-11-11",
+  "close": 1902.300048828125,
+  "volume": 2262492.0
+ },
+ {
+  "symbol": "SUNPHARMA",
+  "day": "2026-11-12",
+  "close": 1885.0,
+  "volume": 2464003.0
+ },
+ {
+  "symbol": "SUNPHARMA",
+  "day": "2026-11-13",
+  "close": 1880.0,
+  "volume": 2037762.0
+ },
+ {
+  "symbol": "ULTRACEMCO",
+  "day": "2026-09-08",
+  "close": 11009.0,
+  "volume": 338272.0
+ },
+ {
+  "symbol": "ULTRACEMCO",
+  "day": "2026-09-09",
+  "close": 10900.0,
+  "volume": 325637.0
+ },
+ {
+  "symbol": "ULTRACEMCO",
+  "day": "2026-09-10",
+  "close": 10979.0,
+  "volume": 270894.0
+ },
+ {
+  "symbol": "ULTRACEMCO",
+  "day": "2026-09-11",
+  "close": 11000.0,
+  "volume": 223277.0
+ },
+ {
+  "symbol": "ULTRACEMCO",
+  "day": "2026-09-15",
+  "close": 10697.0,
+  "volume": 335172.0
+ },
+ {
+  "symbol": "ULTRACEMCO",
+  "day": "2026-09-16",
+  "close": 10700.0,
+  "volume": 236781.0
+ },
+ {
+  "symbol": "ULTRACEMCO",
+  "day": "2026-09-17",
+  "close": 10764.0,
+  "volume": 180788.0
+ },
+ {
+  "symbol": "ULTRACEMCO",
+  "day": "2026-09-18",
+  "close": 11014.0,
+  "volume": 458848.0
+ },
+ {
+  "symbol": "ULTRACEMCO",
+  "day": "2026-09-21",
+  "close": 11100.0,
+  "volume": 152231.0
+ },
+ {
+  "symbol": "ULTRACEMCO",
+  "day": "2026-09-22",
+  "close": 11000.0,
+  "volume": 320797.0
+ },
+ {
+  "symbol": "ULTRACEMCO",
+  "day": "2026-09-23",
+  "close": 11155.0,
+  "volume": 218031.0
+ },
+ {
+  "symbol": "ULTRACEMCO",
+  "day": "2026-09-24",
+  "close": 11056.0,
+  "volume": 304695.0
+ },
+ {
+  "symbol": "ULTRACEMCO",
+  "day": "2026-09-25",
+  "close": 11155.0,
+  "volume": 191155.0
+ },
+ {
+  "symbol": "ULTRACEMCO",
+  "day": "2026-09-28",
+  "close": 11025.0,
+  "volume": 331811.0
+ },
+ {
+  "symbol": "ULTRACEMCO",
+  "day": "2026-09-29",
+  "close": 10829.0,
+  "volume": 514924.0
+ },
+ {
+  "symbol": "ULTRACEMCO",
+  "day": "2026-09-30",
+  "close": 10956.0,
+  "volume": 257558.0
+ },
+ {
+  "symbol": "ULTRACEMCO",
+  "day": "2026-10-01",
+  "close": 10710.0,
+  "volume": 570684.0
+ },
+ {
+  "symbol": "ULTRACEMCO",
+  "day": "2026-10-05",
+  "close": 10850.0,
+  "volume": 314538.0
+ },
+ {
+  "symbol": "ULTRACEMCO",
+  "day": "2026-10-06",
+  "close": 10750.0,
+  "volume": 270277.0
+ },
+ {
+  "symbol": "ULTRACEMCO",
+  "day": "2026-10-07",
+  "close": 10658.0,
+  "volume": 287808.0
+ },
+ {
+  "symbol": "ULTRACEMCO",
+  "day": "2026-10-08",
+  "close": 10426.0,
+  "volume": 227189.0
+ },
+ {
+  "symbol": "ULTRACEMCO",
+  "day": "2026-10-09",
+  "close": 10675.0,
+  "volume": 157341.0
+ },
+ {
+  "symbol": "ULTRACEMCO",
+  "day": "2026-10-12",
+  "close": 10520.0,
+  "volume": 220407.0
+ },
+ {
+  "symbol": "ULTRACEMCO",
+  "day": "2026-10-13",
+  "close": 10750.0,
+  "volume": 194184.0
+ },
+ {
+  "symbol": "ULTRACEMCO",
+  "day": "2026-10-14",
+  "close": 10795.0,
+  "volume": 300764.0
+ },
+ {
+  "symbol": "ULTRACEMCO",
+  "day": "2026-10-15",
+  "close": 10862.0,
+  "volume": 349518.0
+ },
+ {
+  "symbol": "ULTRACEMCO",
+  "day": "2026-10-16",
+  "close": 10907.0,
+  "volume": 182520.0
+ },
+ {
+  "symbol": "ULTRACEMCO",
+  "day": "2026-10-19",
+  "close": 10650.0,
+  "volume": 609128.0
+ },
+ {
+  "symbol": "ULTRACEMCO",
+  "day": "2026-10-21",
+  "close": 10849.0,
+  "volume": 395978.0
+ },
+ {
+  "symbol": "ULTRACEMCO",
+  "day": "2026-10-22",
+  "close": 10958.0,
+  "volume": 172266.0
+ },
+ {
+  "symbol": "ULTRACEMCO",
+  "day": "2026-10-23",
+  "close": 11050.0,
+  "volume": 303532.0
+ },
+ {
+  "symbol": "ULTRACEMCO",
+  "day": "2026-10-26",
+  "close": 11180.0,
+  "volume": 275159.0
+ },
+ {
+  "symbol": "ULTRACEMCO",
+  "day": "2026-10-27",
+  "close": 11150.0,
+  "volume": 288694.0
+ },
+ {
+  "symbol": "ULTRACEMCO",
+  "day": "2026-10-28",
+  "close": 11104.0,
+  "volume": 213720.0
+ },
+ {
+  "symbol": "ULTRACEMCO",
+  "day": "2026-10-29",
+  "close": 11175.0,
+  "volume": 139118.0
+ },
+ {
+  "symbol": "ULTRACEMCO",
+  "day": "2026-10-30",
+  "close": 11045.0,
+  "volume": 199530.0
+ },
+ {
+  "symbol": "ULTRACEMCO",
+  "day": "2026-11-02",
+  "close": 11387.0,
+  "volume": 227468.0
+ },
+ {
+  "symbol": "ULTRACEMCO",
+  "day": "2026-11-03",
+  "close": 11700.0,
+  "volume": 341248.0
+ },
+ {
+  "symbol": "ULTRACEMCO",
+  "day": "2026-11-04",
+  "close": 11816.0,
+  "volume": 273181.0
+ },
+ {
+  "symbol": "ULTRACEMCO",
+  "day": "2026-11-05",
+  "close": 12250.0,
+  "volume": 519388.0
+ },
+ {
+  "symbol": "ULTRACEMCO",
+  "day": "2026-11-06",
+  "close": 12450.0,
+  "volume": 480790.0
+ },
+ {
+  "symbol": "ULTRACEMCO",
+  "day": "2026-11-09",
+  "close": 12275.0,
+  "volume": 264941.0
+ },
+ {
+  "symbol": "ULTRACEMCO",
+  "day": "2026-11-11",
+  "close": 12362.0,
+  "volume": 275931.0
+ },
+ {
+  "symbol": "ULTRACEMCO",
+  "day": "2026-11-12",
+  "close": 12337.0,
+  "volume": 154772.0
+ },
+ {
+  "symbol": "ULTRACEMCO",
+  "day": "2026-11-13",
+  "close": 12100.0,
+  "volume": 171017.0
+ },
+ {
+  "symbol": "TATASTEEL",
+  "day": "2026-09-08",
+  "close": 184.14999389648438,
+  "volume": 24272812.0
+ },
+ {
+  "symbol": "TATASTEEL",
+  "day": "2026-09-09",
+  "close": 188.75,
+  "volume": 45985325.0
+ },
+ {
+  "symbol": "TATASTEEL",
+  "day": "2026-09-10",
+  "close": 186.77999877929688,
+  "volume": 23334612.0
+ },
+ {
+  "symbol": "TATASTEEL",
+  "day": "2026-09-11",
+  "close": 183.0,
+  "volume": 31510206.0
+ },
+ {
+  "symbol": "TATASTEEL",
+  "day": "2026-09-15",
+  "close": 183.64999389648438,
+  "volume": 31857708.0
+ },
+ {
+  "symbol": "TATASTEEL",
+  "day": "2026-09-16",
+  "close": 183.0,
+  "volume": 29476234.0
+ },
+ {
+  "symbol": "TATASTEEL",
+  "day": "2026-09-17",
+  "close": 187.2899932861328,
+  "volume": 29397693.0
+ },
+ {
+  "symbol": "TATASTEEL",
+  "day": "2026-09-18",
+  "close": 185.5399932861328,
+  "volume": 29014128.0
+ },
+ {
+  "symbol": "TATASTEEL",
+  "day": "2026-09-21",
+  "close": 183.39999389648438,
+  "volume": 9933718.0
+ },
+ {
+  "symbol": "TATASTEEL",
+  "day": "2026-09-22",
+  "close": 184.97000122070312,
+  "volume": 17525509.0
+ },
+ {
+  "symbol": "TATASTEEL",
+  "day": "2026-09-23",
+  "close": 190.82000732421875,
+  "volume": 39798327.0
+ },
+ {
+  "symbol": "TATASTEEL",
+  "day": "2026-09-24",
+  "close": 188.02000427246094,
+  "volume": 15701549.0
+ },
+ {
+  "symbol": "TATASTEEL",
+  "day": "2026-09-25",
+  "close": 187.97000122070312,
+  "volume": 15890667.0
+ },
+ {
+  "symbol": "TATASTEEL",
+  "day": "2026-09-28",
+  "close": 186.3000030517578,
+  "volume": 13628891.0
+ },
+ {
+  "symbol": "TATASTEEL",
+  "day": "2026-09-29",
+  "close": 188.0,
+  "volume": 28159048.0
+ },
+ {
+  "symbol": "TATASTEEL",
+  "day": "2026-09-30",
+  "close": 184.3000030517578,
+  "volume": 32381754.0
+ },
+ {
+  "symbol": "TATASTEEL",
+  "day": "2026-10-01",
+  "close": 178.0,
+  "volume": 47659952.0
+ },
+ {
+  "symbol": "TATASTEEL",
+  "day": "2026-10-05",
+  "close": 178.13999938964844,
+  "volume": 20426029.0
+ },
+ {
+  "symbol": "TATASTEEL",
+  "day": "2026-10-06",
+  "close": 178.69000244140625,
+  "volume": 17244259.0
+ },
+ {
+  "symbol": "TATASTEEL",
+  "day": "2026-10-07",
+  "close": 175.63999938964844,
+  "volume": 18846203.0
+ },
+ {
+  "symbol": "TATASTEEL",
+  "day": "2026-10-08",
+  "close": 171.9600067138672,
+  "volume": 30689721.0
+ },
+ {
+  "symbol": "TATASTEEL",
+  "day": "2026-10-09",
+  "close": 173.8000030517578,
+  "volume": 13053584.0
+ },
+ {
+  "symbol": "TATASTEEL",
+  "day": "2026-10-12",
+  "close": 172.24000549316406,
+  "volume": 27079930.0
+ },
+ {
+  "symbol": "TATASTEEL",
+  "day": "2026-10-13",
+  "close": 175.0,
+  "volume": 20600621.0
+ },
+ {
+  "symbol": "TATASTEEL",
+  "day": "2026-10-14",
+  "close": 174.49000549316406,
+  "volume": 20350651.0
+ },
+ {
+  "symbol": "TATASTEEL",
+  "day": "2026-10-15",
+  "close": 176.39999389648438,
+  "volume": 17881415.0
+ },
+ {
+  "symbol": "TATASTEEL",
+  "day": "2026-10-16",
+  "close": 175.5,
+  "volume": 42868062.0
+ },
+ {
+  "symbol": "TATASTEEL",
+  "day": "2026-10-19",
+  "close": 174.0399932861328,
+  "volume": 12638617.0
+ },
+ {
+  "symbol": "TATASTEEL",
+  "day": "2026-10-21",
+  "close": 172.4499969482422,
+  "volume": 21577704.0
+ },
+ {
+  "symbol": "TATASTEEL",
+  "day": "2026-10-22",
+  "close": 172.3300018310547,
+  "volume": 16694229.0
+ },
+ {
+  "symbol": "TATASTEEL",
+  "day": "2026-10-23",
+  "close": 167.6699981689453,
+  "volume": 30332375.0
+ },
+ {
+  "symbol": "TATASTEEL",
+  "day": "2026-10-26",
+  "close": 169.94000244140625,
+  "volume": 22624704.0
+ },
+ {
+  "symbol": "TATASTEEL",
+  "day": "2026-10-27",
+  "close": 171.4199981689453,
+  "volume": 27060892.0
+ },
+ {
+  "symbol": "TATASTEEL",
+  "day": "2026-10-28",
+  "close": 169.27000427246094,
+  "volume": 12894674.0
+ },
+ {
+  "symbol": "TATASTEEL",
+  "day": "2026-10-29",
+  "close": 169.4600067138672,
+  "volume": 13728789.0
+ },
+ {
+  "symbol": "TATASTEEL",
+  "day": "2026-10-30",
+  "close": 167.60000610351562,
+  "volume": 15613622.0
+ },
+ {
+  "symbol": "TATASTEEL",
+  "day": "2026-11-02",
+  "close": 177.3699951171875,
+  "volume": 29908885.0
+ },
+ {
+  "symbol": "TATASTEEL",
+  "day": "2026-11-03",
+  "close": 176.5,
+  "volume": 17823743.0
+ },
+ {
+  "symbol": "TATASTEEL",
+  "day": "2026-11-04",
+  "close": 179.92999267578125,
+  "volume": 20742372.0
+ },
+ {
+  "symbol": "TATASTEEL",
+  "day": "2026-11-05",
+  "close": 182.0,
+  "volume": 28981647.0
+ },
+ {
+  "symbol": "TATASTEEL",
+  "day": "2026-11-06",
+  "close": 186.3000030517578,
+  "volume": 33990807.0
+ },
+ {
+  "symbol": "TATASTEEL",
+  "day": "2026-11-09",
+  "close": 184.85000610351562,
+  "volume": 49905496.0
+ },
+ {
+  "symbol": "TATASTEEL",
+  "day": "2026-11-11",
+  "close": 189.27999877929688,
+  "volume": 33811414.0
+ },
+ {
+  "symbol": "TATASTEEL",
+  "day": "2026-11-12",
+  "close": 188.0,
+  "volume": 21108363.0
+ },
+ {
+  "symbol": "TATASTEEL",
+  "day": "2026-11-13",
+  "close": 186.67999267578125,
+  "volume": 13050423.0
+ },
+ {
+  "symbol": "BPCL",
+  "day": "2026-09-08",
+  "close": 303.8500061035156,
+  "volume": 4641011.0
+ },
+ {
+  "symbol": "BPCL",
+  "day": "2026-09-09",
+  "close": 303.54998779296875,
+  "volume": 4492551.0
+ },
+ {
+  "symbol": "BPCL",
+  "day": "2026-09-10",
+  "close": 303.0,
+  "volume": 3231631.0
+ },
+ {
+  "symbol": "BPCL",
+  "day": "2026-09-11",
+  "close": 304.5,
+  "volume": 4137678.0
+ },
+ {
+  "symbol": "BPCL",
+  "day": "2026-09-15",
+  "close": 298.6499938964844,
+  "volume": 3512731.0
+ },
+ {
+  "symbol": "BPCL",
+  "day": "2026-09-16",
+  "close": 303.3500061035156,
+  "volume": 4428358.0
+ },
+ {
+  "symbol": "BPCL",
+  "day": "2026-09-17",
+  "close": 307.0,
+  "volume": 3005596.0
+ },
+ {
+  "symbol": "BPCL",
+  "day": "2026-09-18",
+  "close": 314.0,
+  "volume": 9439555.0
+ },
+ {
+  "symbol": "BPCL",
+  "day": "2026-09-21",
+  "close": 312.75,
+  "volume": 3153498.0
+ },
+ {
+  "symbol": "BPCL",
+  "day": "2026-09-22",
+  "close": 313.6000061035156,
+  "volume": 10959640.0
+ },
+ {
+  "symbol": "BPCL",
+  "day": "2026-09-23",
+  "close": 315.75,
+  "volume": 2065484.0
+ },
+ {
+  "symbol": "BPCL",
+  "day": "2026-09-24",
+  "close": 307.1000061035156,
+  "volume": 3225066.0
+ },
+ {
+  "symbol": "BPCL",
+  "day": "2026-09-25",
+  "close": 308.5,
+  "volume": 1893466.0
+ },
+ {
+  "symbol": "BPCL",
+  "day": "2026-09-28",
+  "close": 302.25,
+  "volume": 2813265.0
+ },
+ {
+  "symbol": "BPCL",
+  "day": "2026-09-29",
+  "close": 299.3500061035156,
+  "volume": 4538466.0
+ },
+ {
+  "symbol": "BPCL",
+  "day": "2026-09-30",
+  "close": 303.20001220703125,
+  "volume": 5525502.0
+ },
+ {
+  "symbol": "BPCL",
+  "day": "2026-10-01",
+  "close": 300.6000061035156,
+  "volume": 5618518.0
+ },
+ {
+  "symbol": "BPCL",
+  "day": "2026-10-05",
+  "close": 296.95001220703125,
+  "volume": 7903107.0
+ },
+ {
+  "symbol": "BPCL",
+  "day": "2026-10-06",
+  "close": 300.5,
+  "volume": 6314935.0
+ },
+ {
+  "symbol": "BPCL",
+  "day": "2026-10-07",
+  "close": 296.3500061035156,
+  "volume": 6249901.0
+ },
+ {
+  "symbol": "BPCL",
+  "day": "2026-10-08",
+  "close": 286.25,
+  "volume": 7116001.0
+ },
+ {
+  "symbol": "BPCL",
+  "day": "2026-10-09",
+  "close": 287.79998779296875,
+  "volume": 2382763.0
+ },
+ {
+  "symbol": "BPCL",
+  "day": "2026-10-12",
+  "close": 284.5,
+  "volume": 4312619.0
+ },
+ {
+  "symbol": "BPCL",
+  "day": "2026-10-13",
+  "close": 287.3999938964844,
+  "volume": 1817328.0
+ },
+ {
+  "symbol": "BPCL",
+  "day": "2026-10-14",
+  "close": 289.6499938964844,
+  "volume": 3482868.0
+ },
+ {
+  "symbol": "BPCL",
+  "day": "2026-10-15",
+  "close": 293.70001220703125,
+  "volume": 6111673.0
+ },
+ {
+  "symbol": "BPCL",
+  "day": "2026-10-16",
+  "close": 293.5,
+  "volume": 3096084.0
+ },
+ {
+  "symbol": "BPCL",
+  "day": "2026-10-19",
+  "close": 294.29998779296875,
+  "volume": 2432283.0
+ },
+ {
+  "symbol": "BPCL",
+  "day": "2026-10-21",
+  "close": 288.0,
+  "volume": 4280186.0
+ },
+ {
+  "symbol": "BPCL",
+  "day": "2026-10-22",
+  "close": 286.95001220703125,
+  "volume": 17973140.0
+ },
+ {
+  "symbol": "BPCL",
+  "day": "2026-10-23",
+  "close": 281.95001220703125,
+  "volume": 3198575.0
+ },
+ {
+  "symbol": "BPCL",
+  "day": "2026-10-26",
+  "close": 290.3999938964844,
+  "volume": 7563944.0
+ },
+ {
+  "symbol": "BPCL",
+  "day": "2026-10-27",
+  "close": 295.6000061035156,
+  "volume": 5803184.0
+ },
+ {
+  "symbol": "BPCL",
+  "day": "2026-10-28",
+  "close": 287.0,
+  "volume": 3036196.0
+ },
+ {
+  "symbol": "BPCL",
+  "day": "2026-10-29",
+  "close": 289.20001220703125,
+  "volume": 2785508.0
+ },
+ {
+  "symbol": "BPCL",
+  "day": "2026-10-30",
+  "close": 284.8999938964844,
+  "volume": 2802435.0
+ },
+ {
+  "symbol": "BPCL",
+  "day": "2026-11-02",
+  "close": 293.04998779296875,
+  "volume": 3810343.0
+ },
+ {
+  "symbol": "BPCL",
+  "day": "2026-11-03",
+  "close": 296.8999938964844,
+  "volume": 4232396.0
+ },
+ {
+  "symbol": "BPCL",
+  "day": "2026-11-04",
+  "close": 304.70001220703125,
+  "volume": 3457657.0
+ },
+ {
+  "symbol": "BPCL",
+  "day": "2026-11-05",
+  "close": 317.1000061035156,
+  "volume": 16963744.0
+ },
+ {
+  "symbol": "BPCL",
+  "day": "2026-11-06",
+  "close": 319.8999938964844,
+  "volume": 6067714.0
+ },
+ {
+  "symbol": "BPCL",
+  "day": "2026-11-09",
+  "close": 316.0,
+  "volume": 6532653.0
+ },
+ {
+  "symbol": "BPCL",
+  "day": "2026-11-11",
+  "close": 315.25,
+  "volume": 12222803.0
+ },
+ {
+  "symbol": "BPCL",
+  "day": "2026-11-12",
+  "close": 311.5,
+  "volume": 7395191.0
+ },
+ {
+  "symbol": "BPCL",
+  "day": "2026-11-13",
+  "close": 302.0,
+  "volume": 4413031.0
+ },
+ {
+  "symbol": "LT",
+  "day": "2026-09-08",
+  "close": 3946.10009765625,
+  "volume": 1200872.0
+ },
+ {
+  "symbol": "LT",
+  "day": "2026-09-09",
+  "close": 3922.60009765625,
+  "volume": 2954721.0
+ },
+ {
+  "symbol": "LT",
+  "day": "2026-09-10",
+  "close": 3955.0,
+  "volume": 1376951.0
+ },
+ {
+  "symbol": "LT",
+  "day": "2026-09-11",
+  "close": 3930.699951171875,
+  "volume": 1195489.0
+ },
+ {
+  "symbol": "LT",
+  "day": "2026-09-15",
+  "close": 3850.699951171875,
+  "volume": 1848703.0
+ },
+ {
+  "symbol": "LT",
+  "day": "2026-09-16",
+  "close": 3807.699951171875,
+  "volume": 2038640.0
+ },
+ {
+  "symbol": "LT",
+  "day": "2026-09-17",
+  "close": 3836.199951171875,
+  "volume": 1319415.0
+ },
+ {
+  "symbol": "LT",
+  "day": "2026-09-18",
+  "close": 3885.0,
+  "volume": 1547690.0
+ },
+ {
+  "symbol": "LT",
+  "day": "2026-09-21",
+  "close": 3904.800048828125,
+  "volume": 947371.0
+ },
+ {
+  "symbol": "LT",
+  "day": "2026-09-22",
+  "close": 3866.39990234375,
+  "volume": 1355288.0
+ },
+ {
+  "symbol": "LT",
+  "day": "2026-09-23",
+  "close": 3929.89990234375,
+  "volume": 945462.0
+ },
+ {
+  "symbol": "LT",
+  "day": "2026-09-24",
+  "close": 3858.39990234375,
+  "volume": 1649308.0
+ },
+ {
+  "symbol": "LT",
+  "day": "2026-09-25",
+  "close": 3876.199951171875,
+  "volume": 1230579.0
+ },
+ {
+  "symbol": "LT",
+  "day": "2026-09-28",
+  "close": 3766.39990234375,
+  "volume": 1361601.0
+ },
+ {
+  "symbol": "LT",
+  "day": "2026-09-29",
+  "close": 3749.10009765625,
+  "volume": 2546475.0
+ },
+ {
+  "symbol": "LT",
+  "day": "2026-09-30",
+  "close": 3760.0,
+  "volume": 2396040.0
+ },
+ {
+  "symbol": "LT",
+  "day": "2026-10-01",
+  "close": 3693.39990234375,
+  "volume": 2220932.0
+ },
+ {
+  "symbol": "LT",
+  "day": "2026-10-05",
+  "close": 3750.0,
+  "volume": 2323437.0
+ },
+ {
+  "symbol": "LT",
+  "day": "2026-10-06",
+  "close": 3770.0,
+  "volume": 1994276.0
+ },
+ {
+  "symbol": "LT",
+  "day": "2026-10-07",
+  "close": 3701.5,
+  "volume": 1609969.0
+ },
+ {
+  "symbol": "LT",
+  "day": "2026-10-08",
+  "close": 3625.10009765625,
+  "volume": 1690918.0
+ },
+ {
+  "symbol": "LT",
+  "day": "2026-10-09",
+  "close": 3703.300048828125,
+  "volume": 1339156.0
+ },
+ {
+  "symbol": "LT",
+  "day": "2026-10-12",
+  "close": 3627.5,
+  "volume": 1177475.0
+ },
+ {
+  "symbol": "LT",
+  "day": "2026-10-13",
+  "close": 3675.0,
+  "volume": 2254840.0
+ },
+ {
+  "symbol": "LT",
+  "day": "2026-10-14",
+  "close": 3642.0,
+  "volume": 1826165.0
+ },
+ {
+  "symbol": "LT",
+  "day": "2026-10-15",
+  "close": 3632.0,
+  "volume": 2452067.0
+ },
+ {
+  "symbol": "LT",
+  "day": "2026-10-16",
+  "close": 3627.10009765625,
+  "volume": 1875108.0
+ },
+ {
+  "symbol": "LT",
+  "day": "2026-10-19",
+  "close": 3661.89990234375,
+  "volume": 2331147.0
+ },
+ {
+  "symbol": "LT",
+  "day": "2026-10-21",
+  "close": 3636.0,
+  "volume": 1902623.0
+ },
+ {
+  "symbol": "LT",
+  "day": "2026-10-22",
+  "close": 3638.300048828125,
+  "volume": 2668020.0
+ },
+ {
+  "symbol": "LT",
+  "day": "2026-10-23",
+  "close": 3647.0,
+  "volume": 2021973.0
+ },
+ {
+  "symbol": "LT",
+  "day": "2026-10-26",
+  "close": 3680.0,
+  "volume": 1144515.0
+ },
+ {
+  "symbol": "LT",
+  "day": "2026-10-27",
+  "close": 3665.10009765625,
+  "volume": 1471485.0
+ },
+ {
+  "symbol": "LT",
+  "day": "2026-10-28",
+  "close": 3801.300048828125,
+  "volume": 6174490.0
+ },
+ {
+  "symbol": "LT",
+  "day": "2026-10-29",
+  "close": 3837.10009765625,
+  "volume": 1754505.0
+ },
+ {
+  "symbol": "LT",
+  "day": "2026-10-30",
+  "close": 3871.699951171875,
+  "volume": 1765873.0
+ },
+ {
+  "symbol": "LT",
+  "day": "2026-11-02",
+  "close": 3939.89990234375,
+  "volume": 2056829.0
+ },
+ {
+  "symbol": "LT",
+  "day": "2026-11-03",
+  "close": 3948.199951171875,
+  "volume": 2153031.0
+ },
+ {
+  "symbol": "LT",
+  "day": "2026-11-04",
+  "close": 3944.39990234375,
+  "volume": 2494060.0
+ },
+ {
+  "symbol": "LT",
+  "day": "2026-11-05",
+  "close": 4050.0,
+  "volume": 3838083.0
+ },
+ {
+  "symbol": "LT",
+  "day": "2026-11-06",
+  "close": 4117.7001953125,
+  "volume": 3396323.0
+ },
+ {
+  "symbol": "LT",
+  "day": "2026-11-09",
+  "close": 4185.0,
+  "volume": 3251721.0
+ },
+ {
+  "symbol": "LT",
+  "day": "2026-11-11",
+  "close": 4212.0,
+  "volume": 2833382.0
+ },
+ {
+  "symbol": "LT",
+  "day": "2026-11-12",
+  "close": 4159.2001953125,
+  "volume": 2448016.0
+ },
+ {
+  "symbol": "LT",
+  "day": "2026-11-13",
+  "close": 4143.7998046875,
+  "volume": 1585695.0
+ },
+ {
+  "symbol": "BHARTIARTL",
+  "day": "2026-09-08",
+  "close": 1844.0,
+  "volume": 4169706.0
+ },
+ {
+  "symbol": "BHARTIARTL",
+  "day": "2026-09-09",
+  "close": 1814.699951171875,
+  "volume": 5574027.0
+ },
+ {
+  "symbol": "BHARTIARTL",
+  "day": "2026-09-10",
+  "close": 1839.0,
+  "volume": 4588126.0
+ },
+ {
+  "symbol": "BHARTIARTL",
+  "day": "2026-09-11",
+  "close": 1831.0999755859375,
+  "volume": 4181325.0
+ },
+ {
+  "symbol": "BHARTIARTL",
+  "day": "2026-09-15",
+  "close": 1830.4000244140625,
+  "volume": 4066471.0
+ },
+ {
+  "symbol": "BHARTIARTL",
+  "day": "2026-09-16",
+  "close": 1835.0,
+  "volume": 2925053.0
+ },
+ {
+  "symbol": "BHARTIARTL",
+  "day": "2026-09-17",
+  "close": 1836.0,
+  "volume": 4368285.0
+ },
+ {
+  "symbol": "BHARTIARTL",
+  "day": "2026-09-18",
+  "close": 1893.300048828125,
+  "volume": 14189780.0
+ },
+ {
+  "symbol": "BHARTIARTL",
+  "day": "2026-09-21",
+  "close": 1830.199951171875,
+  "volume": 9716580.0
+ },
+ {
+  "symbol": "BHARTIARTL",
+  "day": "2026-09-22",
+  "close": 1817.199951171875,
+  "volume": 4134236.0
+ },
+ {
+  "symbol": "BHARTIARTL",
+  "day": "2026-09-23",
+  "close": 1833.199951171875,
+  "volume": 3698253.0
+ },
+ {
+  "symbol": "BHARTIARTL",
+  "day": "2026-09-24",
+  "close": 1795.800048828125,
+  "volume": 4567379.0
+ },
+ {
+  "symbol": "BHARTIARTL",
+  "day": "2026-09-25",
+  "close": 1785.4000244140625,
+  "volume": 4766200.0
+ },
+ {
+  "symbol": "BHARTIARTL",
+  "day": "2026-09-28",
+  "close": 1771.4000244140625,
+  "volume": 4683537.0
+ },
+ {
+  "symbol": "BHARTIARTL",
+  "day": "2026-09-29",
+  "close": 1771.199951171875,
+  "volume": 9811381.0
+ },
+ {
+  "symbol": "BHARTIARTL",
+  "day": "2026-09-30",
+  "close": 1757.0,
+  "volume": 8080358.0
+ },
+ {
+  "symbol": "BHARTIARTL",
+  "day": "2026-10-01",
+  "close": 1741.0999755859375,
+  "volume": 5609657.0
+ },
+ {
+  "symbol": "BHARTIARTL",
+  "day": "2026-10-05",
+  "close": 1779.9000244140625,
+  "volume": 7310041.0
+ },
+ {
+  "symbol": "BHARTIARTL",
+  "day": "2026-10-06",
+  "close": 1810.5,
+  "volume": 5155150.0
+ },
+ {
+  "symbol": "BHARTIARTL",
+  "day": "2026-10-07",
+  "close": 1833.9000244140625,
+  "volume": 13920833.0
+ },
+ {
+  "symbol": "BHARTIARTL",
+  "day": "2026-10-08",
+  "close": 1804.5999755859375,
+  "volume": 6582419.0
+ },
+ {
+  "symbol": "BHARTIARTL",
+  "day": "2026-10-09",
+  "close": 1805.0999755859375,
+  "volume": 3362523.0
+ },
+ {
+  "symbol": "BHARTIARTL",
+  "day": "2026-10-12",
+  "close": 1778.699951171875,
+  "volume": 4819377.0
+ },
+ {
+  "symbol": "BHARTIARTL",
+  "day": "2026-10-13",
+  "close": 1806.5,
+  "volume": 5942868.0
+ },
+ {
+  "symbol": "BHARTIARTL",
+  "day": "2026-10-14",
+  "close": 1794.5999755859375,
+  "volume": 5185554.0
+ },
+ {
+  "symbol": "BHARTIARTL",
+  "day": "2026-10-15",
+  "close": 1854.0,
+  "volume": 11315521.0
+ },
+ {
+  "symbol": "BHARTIARTL",
+  "day": "2026-10-16",
+  "close": 1905.0,
+  "volume": 25484107.0
+ },
+ {
+  "symbol": "BHARTIARTL",
+  "day": "2026-10-19",
+  "close": 1875.199951171875,
+  "volume": 8586339.0
+ },
+ {
+  "symbol": "BHARTIARTL",
+  "day": "2026-10-21",
+  "close": 1891.699951171875,
+  "volume": 8974372.0
+ },
+ {
+  "symbol": "BHARTIARTL",
+  "day": "2026-10-22",
+  "close": 1895.0,
+  "volume": 12647520.0
+ },
+ {
+  "symbol": "BHARTIARTL",
+  "day": "2026-10-23",
+  "close": 1892.0999755859375,
+  "volume": 9870903.0
+ },
+ {
+  "symbol": "BHARTIARTL",
+  "day": "2026-10-26",
+  "close": 1917.5,
+  "volume": 2993913.0
+ },
+ {
+  "symbol": "BHARTIARTL",
+  "day": "2026-10-27",
+  "close": 1978.800048828125,
+  "volume": 13054163.0
+ },
+ {
+  "symbol": "BHARTIARTL",
+  "day": "2026-10-28",
+  "close": 1948.0999755859375,
+  "volume": 14502415.0
+ },
+ {
+  "symbol": "BHARTIARTL",
+  "day": "2026-10-29",
+  "close": 1972.0999755859375,
+  "volume": 6859219.0
+ },
+ {
+  "symbol": "BHARTIARTL",
+  "day": "2026-10-30",
+  "close": 1973.699951171875,
+  "volume": 7221873.0
+ },
+ {
+  "symbol": "BHARTIARTL",
+  "day": "2026-11-02",
+  "close": 1989.9000244140625,
+  "volume": 6840006.0
+ },
+ {
+  "symbol": "BHARTIARTL",
+  "day": "2026-11-03",
+  "close": 2065.0,
+  "volume": 18603124.0
+ },
+ {
+  "symbol": "BHARTIARTL",
+  "day": "2026-11-04",
+  "close": 2067.60009765625,
+  "volume": 11272829.0
+ },
+ {
+  "symbol": "BHARTIARTL",
+  "day": "2026-11-05",
+  "close": 2056.89990234375,
+  "volume": 9773137.0
+ },
+ {
+  "symbol": "BHARTIARTL",
+  "day": "2026-11-06",
+  "close": 2107.199951171875,
+  "volume": 17095063.0
+ },
+ {
+  "symbol": "BHARTIARTL",
+  "day": "2026-11-09",
+  "close": 2072.10009765625,
+  "volume": 6064365.0
+ },
+ {
+  "symbol": "BHARTIARTL",
+  "day": "2026-11-11",
+  "close": 2109.0,
+  "volume": 8969920.0
+ },
+ {
+  "symbol": "BHARTIARTL",
+  "day": "2026-11-12",
+  "close": 2096.0,
+  "volume": 7646984.0
+ },
+ {
+  "symbol": "BHARTIARTL",
+  "day": "2026-11-13",
+  "close": 2106.0,
+  "volume": 6106256.0
+ },
+ {
+  "symbol": "TITAN",
+  "day": "2026-09-08",
+  "close": 4987.0,
+  "volume": 432671.0
+ },
+ {
+  "symbol": "TITAN",
+  "day": "2026-09-09",
+  "close": 5005.0,
+  "volume": 502050.0
+ },
+ {
+  "symbol": "TITAN",
+  "day": "2026-09-10",
+  "close": 5021.0,
+  "volume": 336565.0
+ },
+ {
+  "symbol": "TITAN",
+  "day": "2026-09-11",
+  "close": 5009.5,
+  "volume": 403235.0
+ },
+ {
+  "symbol": "TITAN",
+  "day": "2026-09-15",
+  "close": 4856.0,
+  "volume": 504447.0
+ },
+ {
+  "symbol": "TITAN",
+  "day": "2026-09-16",
+  "close": 4908.5,
+  "volume": 376036.0
+ },
+ {
+  "symbol": "TITAN",
+  "day": "2026-09-17",
+  "close": 4841.0,
+  "volume": 489416.0
+ },
+ {
+  "symbol": "TITAN",
+  "day": "2026-09-18",
+  "close": 4798.5,
+  "volume": 1066023.0
+ },
+ {
+  "symbol": "TITAN",
+  "day": "2026-09-21",
+  "close": 4875.0,
+  "volume": 665067.0
+ },
+ {
+  "symbol": "TITAN",
+  "day": "2026-09-22",
+  "close": 4928.5,
+  "volume": 1238174.0
+ },
+ {
+  "symbol": "TITAN",
+  "day": "2026-09-23",
+  "close": 4880.0,
+  "volume": 769737.0
+ },
+ {
+  "symbol": "TITAN",
+  "day": "2026-09-24",
+  "close": 4832.5,
+  "volume": 504126.0
+ },
+ {
+  "symbol": "TITAN",
+  "day": "2026-09-25",
+  "close": 4884.0,
+  "volume": 368677.0
+ },
+ {
+  "symbol": "TITAN",
+  "day": "2026-09-28",
+  "close": 4819.5,
+  "volume": 632938.0
+ },
+ {
+  "symbol": "TITAN",
+  "day": "2026-09-29",
+  "close": 4675.0,
+  "volume": 1188414.0
+ },
+ {
+  "symbol": "TITAN",
+  "day": "2026-09-30",
+  "close": 4587.0,
+  "volume": 927060.0
+ },
+ {
+  "symbol": "TITAN",
+  "day": "2026-10-01",
+  "close": 4515.7001953125,
+  "volume": 694098.0
+ },
+ {
+  "symbol": "TITAN",
+  "day": "2026-10-05",
+  "close": 4580.0,
+  "volume": 731987.0
+ },
+ {
+  "symbol": "TITAN",
+  "day": "2026-10-06",
+  "close": 4550.0,
+  "volume": 800113.0
+ },
+ {
+  "symbol": "TITAN",
+  "day": "2026-10-07",
+  "close": 4377.0,
+  "volume": 2951280.0
+ },
+ {
+  "symbol": "TITAN",
+  "day": "2026-10-08",
+  "close": 4359.5,
+  "volume": 1490894.0
+ },
+ {
+  "symbol": "TITAN",
+  "day": "2026-10-09",
+  "close": 4410.0,
+  "volume": 591677.0
+ },
+ {
+  "symbol": "TITAN",
+  "day": "2026-10-12",
+  "close": 4400.0,
+  "volume": 724353.0
+ },
+ {
+  "symbol": "TITAN",
+  "day": "2026-10-13",
+  "close": 4487.0,
+  "volume": 550356.0
+ },
+ {
+  "symbol": "TITAN",
+  "day": "2026-10-14",
+  "close": 4444.0,
+  "volume": 552204.0
+ },
+ {
+  "symbol": "TITAN",
+  "day": "2026-10-15",
+  "close": 4455.7998046875,
+  "volume": 533115.0
+ },
+ {
+  "symbol": "TITAN",
+  "day": "2026-10-16",
+  "close": 4444.7998046875,
+  "volume": 577590.0
+ },
+ {
+  "symbol": "TITAN",
+  "day": "2026-10-19",
+  "close": 4424.2001953125,
+  "volume": 651506.0
+ },
+ {
+  "symbol": "TITAN",
+  "day": "2026-10-21",
+  "close": 4380.89990234375,
+  "volume": 448729.0
+ },
+ {
+  "symbol": "TITAN",
+  "day": "2026-10-22",
+  "close": 4350.0,
+  "volume": 426321.0
+ },
+ {
+  "symbol": "TITAN",
+  "day": "2026-10-23",
+  "close": 4299.7001953125,
+  "volume": 633220.0
+ },
+ {
+  "symbol": "TITAN",
+  "day": "2026-10-26",
+  "close": 4323.0,
+  "volume": 382563.0
+ },
+ {
+  "symbol": "TITAN",
+  "day": "2026-10-27",
+  "close": 4365.89990234375,
+  "volume": 749496.0
+ },
+ {
+  "symbol": "TITAN",
+  "day": "2026-10-28",
+  "close": 4337.89990234375,
+  "volume": 527965.0
+ },
+ {
+  "symbol": "TITAN",
+  "day": "2026-10-29",
+  "close": 4434.0,
+  "volume": 958380.0
+ },
+ {
+  "symbol": "TITAN",
+  "day": "2026-10-30",
+  "close": 4436.5,
+  "volume": 1143254.0
+ },
+ {
+  "symbol": "TITAN",
+  "day": "2026-11-02",
+  "close": 4476.2998046875,
+  "volume": 603203.0
+ },
+ {
+  "symbol": "TITAN",
+  "day": "2026-11-03",
+  "close": 4562.0,
+  "volume": 774059.0
+ },
+ {
+  "symbol": "TITAN",
+  "day": "2026-11-04",
+  "close": 4754.39990234375,
+  "volume": 1324883.0
+ },
+ {
+  "symbol": "TITAN",
+  "day": "2026-11-05",
+  "close": 4834.60009765625,
+  "volume": 1241367.0
+ },
+ {
+  "symbol": "TITAN",
+  "day": "2026-11-06",
+  "close": 5000.0,
+  "volume": 4132719.0
+ },
+ {
+  "symbol": "TITAN",
+  "day": "2026-11-09",
+  "close": 5005.0,
+  "volume": 839812.0
+ },
+ {
+  "symbol": "TITAN",
+  "day": "2026-11-11",
+  "close": 4970.0,
+  "volume": 1716837.0
+ },
+ {
+  "symbol": "TITAN",
+  "day": "2026-11-12",
+  "close": 4921.89990234375,
+  "volume": 732932.0
+ },
+ {
+  "symbol": "TITAN",
+  "day": "2026-11-13",
+  "close": 4844.89990234375,
+  "volume": 624040.0
+ },
+ {
+  "symbol": "CL=F",
+  "day": "2026-09-24",
+  "close": 94.61000061035156,
+  "volume": 410015.0
+ },
+ {
+  "symbol": "CL=F",
+  "day": "2026-09-25",
+  "close": 92.41000366210938,
+  "volume": 345783.0
+ },
+ {
+  "symbol": "CL=F",
+  "day": "2026-09-28",
+  "close": 92.5999984741211,
+  "volume": 370326.0
+ },
+ {
+  "symbol": "CL=F",
+  "day": "2026-09-29",
+  "close": 89.37999725341797,
+  "volume": 335169.0
+ },
+ {
+  "symbol": "CL=F",
+  "day": "2026-09-30",
+  "close": 90.41999816894531,
+  "volume": 285604.0
+ },
+ {
+  "symbol": "CL=F",
+  "day": "2026-10-01",
+  "close": 92.87000274658203,
+  "volume": 337181.0
+ },
+ {
+  "symbol": "CL=F",
+  "day": "2026-10-02",
+  "close": 91.11000061035156,
+  "volume": 355302.0
+ },
+ {
+  "symbol": "CL=F",
+  "day": "2026-10-05",
+  "close": 89.43000030517578,
+  "volume": 274982.0
+ },
+ {
+  "symbol": "CL=F",
+  "day": "2026-10-06",
+  "close": 89.44000244140625,
+  "volume": 265937.0
+ },
+ {
+  "symbol": "CL=F",
+  "day": "2026-10-07",
+  "close": 88.27999877929688,
+  "volume": 295162.0
+ },
+ {
+  "symbol": "CL=F",
+  "day": "2026-10-08",
+  "close": 91.48999786376953,
+  "volume": 341641.0
+ },
+ {
+  "symbol": "CL=F",
+  "day": "2026-10-09",
+  "close": 91.8499984741211,
+  "volume": 230048.0
+ },
+ {
+  "symbol": "CL=F",
+  "day": "2026-10-12",
+  "close": 93.73999786376953,
+  "volume": 235379.0
+ },
+ {
+  "symbol": "CL=F",
+  "day": "2026-10-13",
+  "close": 94.13999938964844,
+  "volume": 256161.0
+ },
+ {
+  "symbol": "CL=F",
+  "day": "2026-10-14",
+  "close": 95.08999633789062,
+  "volume": 226764.0
+ },
+ {
+  "symbol": "CL=F",
+  "day": "2026-10-15",
+  "close": 97.97000122070312,
+  "volume": 222965.0
+ },
+ {
+  "symbol": "CL=F",
+  "day": "2026-10-16",
+  "close": 101.41000366210938,
+  "volume": 108489.0
+ },
+ {
+  "symbol": "CL=F",
+  "day": "2026-10-19",
+  "close": 103.66000366210938,
+  "volume": 90962.0
+ },
+ {
+  "symbol": "CL=F",
+  "day": "2026-10-20",
+  "close": 101.79000091552734,
+  "volume": 382038.0
+ },
+ {
+  "symbol": "CL=F",
+  "day": "2026-10-21",
+  "close": 97.1500015258789,
+  "volume": 332174.0
+ },
+ {
+  "symbol": "CL=F",
+  "day": "2026-10-22",
+  "close": 99.47000122070312,
+  "volume": 301805.0
+ },
+ {
+  "symbol": "CL=F",
+  "day": "2026-10-23",
+  "close": 103.2699966430664,
+  "volume": 331867.0
+ },
+ {
+  "symbol": "CL=F",
+  "day": "2026-10-26",
+  "close": 101.76000213623047,
+  "volume": 266519.0
+ },
+ {
+  "symbol": "CL=F",
+  "day": "2026-10-27",
+  "close": 99.9000015258789,
+  "volume": 272470.0
+ },
+ {
+  "symbol": "CL=F",
+  "day": "2026-10-28",
+  "close": 102.77999877929688,
+  "volume": 294149.0
+ },
+ {
+  "symbol": "CL=F",
+  "day": "2026-10-29",
+  "close": 102.0,
+  "volume": 262537.0
+ },
+ {
+  "symbol": "CL=F",
+  "day": "2026-10-30",
+  "close": 104.12000274658203,
+  "volume": 272385.0
+ },
+ {
+  "symbol": "CL=F",
+  "day": "2026-11-02",
+  "close": 96.45999908447266,
+  "volume": 390924.0
+ },
+ {
+  "symbol": "CL=F",
+  "day": "2026-11-03",
+  "close": 96.08999633789062,
+  "volume": 376081.0
+ },
+ {
+  "symbol": "CL=F",
+  "day": "2026-11-04",
+  "close": 88.12000274658203,
+  "volume": 454113.0
+ },
+ {
+  "symbol": "CL=F",
+  "day": "2026-11-05",
+  "close": 90.5199966430664,
+  "volume": 335754.0
+ },
+ {
+  "symbol": "CL=F",
+  "day": "2026-11-06",
+  "close": 90.83000183105469,
+  "volume": 288175.0
+ },
+ {
+  "symbol": "CL=F",
+  "day": "2026-11-09",
+  "close": 86.8499984741211,
+  "volume": 337279.0
+ },
+ {
+  "symbol": "CL=F",
+  "day": "2026-11-10",
+  "close": 86.04000091552734,
+  "volume": 288756.0
+ },
+ {
+  "symbol": "CL=F",
+  "day": "2026-11-11",
+  "close": 86.52999877929688,
+  "volume": 240619.0
+ },
+ {
+  "symbol": "CL=F",
+  "day": "2026-11-12",
+  "close": 88.73999786376953,
+  "volume": 270072.0
+ },
+ {
+  "symbol": "CL=F",
+  "day": "2026-11-13",
+  "close": 88.55999755859375,
+  "volume": 181210.0
+ },
+ {
+  "symbol": "USDINR=X",
+  "day": "2026-09-14",
+  "close": 95.03279876708984,
+  "volume": 0.0
+ },
+ {
+  "symbol": "USDINR=X",
+  "day": "2026-09-15",
+  "close": 95.83540344238281,
+  "volume": 0.0
+ },
+ {
+  "symbol": "USDINR=X",
+  "day": "2026-09-16",
+  "close": 95.9926986694336,
+  "volume": 0.0
+ },
+ {
+  "symbol": "USDINR=X",
+  "day": "2026-09-17",
+  "close": 96.1323013305664,
+  "volume": 0.0
+ },
+ {
+  "symbol": "USDINR=X",
+  "day": "2026-09-18",
+  "close": 95.79920196533203,
+  "volume": 0.0
+ },
+ {
+  "symbol": "USDINR=X",
+  "day": "2026-09-21",
+  "close": 96.01309967041016,
+  "volume": 0.0
+ },
+ {
+  "symbol": "USDINR=X",
+  "day": "2026-09-22",
+  "close": 95.71199798583984,
+  "volume": 0.0
+ },
+ {
+  "symbol": "USDINR=X",
+  "day": "2026-09-23",
+  "close": 95.6897964477539,
+  "volume": 0.0
+ },
+ {
+  "symbol": "USDINR=X",
+  "day": "2026-09-24",
+  "close": 95.74120330810547,
+  "volume": 0.0
+ },
+ {
+  "symbol": "USDINR=X",
+  "day": "2026-09-25",
+  "close": 96.16130065917969,
+  "volume": 0.0
+ },
+ {
+  "symbol": "USDINR=X",
+  "day": "2026-09-28",
+  "close": 95.78829956054688,
+  "volume": 0.0
+ },
+ {
+  "symbol": "USDINR=X",
+  "day": "2026-09-29",
+  "close": 95.98159790039062,
+  "volume": 0.0
+ },
+ {
+  "symbol": "USDINR=X",
+  "day": "2026-09-30",
+  "close": 96.05069732666016,
+  "volume": 0.0
+ },
+ {
+  "symbol": "USDINR=X",
+  "day": "2026-10-01",
+  "close": 95.9271011352539,
+  "volume": 0.0
+ },
+ {
+  "symbol": "USDINR=X",
+  "day": "2026-10-02",
+  "close": 96.22480010986328,
+  "volume": 0.0
+ },
+ {
+  "symbol": "USDINR=X",
+  "day": "2026-10-05",
+  "close": 96.32530212402344,
+  "volume": 0.0
+ },
+ {
+  "symbol": "USDINR=X",
+  "day": "2026-10-06",
+  "close": 96.3427963256836,
+  "volume": 0.0
+ },
+ {
+  "symbol": "USDINR=X",
+  "day": "2026-10-07",
+  "close": 96.37039947509766,
+  "volume": 0.0
+ },
+ {
+  "symbol": "USDINR=X",
+  "day": "2026-10-08",
+  "close": 96.75679779052734,
+  "volume": 0.0
+ },
+ {
+  "symbol": "USDINR=X",
+  "day": "2026-10-09",
+  "close": 96.82330322265625,
+  "volume": 0.0
+ },
+ {
+  "symbol": "USDINR=X",
+  "day": "2026-10-12",
+  "close": 96.77529907226562,
+  "volume": 0.0
+ },
+ {
+  "symbol": "USDINR=X",
+  "day": "2026-10-13",
+  "close": 95.7759017944336,
+  "volume": 0.0
+ },
+ {
+  "symbol": "USDINR=X",
+  "day": "2026-10-14",
+  "close": 95.28720092773438,
+  "volume": 0.0
+ },
+ {
+  "symbol": "USDINR=X",
+  "day": "2026-10-15",
+  "close": 95.15129852294922,
+  "volume": 0.0
+ },
+ {
+  "symbol": "USDINR=X",
+  "day": "2026-10-16",
+  "close": 94.5248031616211,
+  "volume": 0.0
+ },
+ {
+  "symbol": "USDINR=X",
+  "day": "2026-10-19",
+  "close": 94.97769927978516,
+  "volume": 0.0
+ },
+ {
+  "symbol": "USDINR=X",
+  "day": "2026-10-20",
+  "close": 94.99359893798828,
+  "volume": 0.0
+ },
+ {
+  "symbol": "USDINR=X",
+  "day": "2026-10-21",
+  "close": 94.71640014648438,
+  "volume": 0.0
+ },
+ {
+  "symbol": "USDINR=X",
+  "day": "2026-10-22",
+  "close": 94.31230163574219,
+  "volume": 0.0
+ },
+ {
+  "symbol": "USDINR=X",
+  "day": "2026-10-23",
+  "close": 94.7113037109375,
+  "volume": 0.0
+ },
+ {
+  "symbol": "USDINR=X",
+  "day": "2026-10-26",
+  "close": 94.93800354003906,
+  "volume": 0.0
+ },
+ {
+  "symbol": "USDINR=X",
+  "day": "2026-10-27",
+  "close": 95.18699645996094,
+  "volume": 0.0
+ },
+ {
+  "symbol": "USDINR=X",
+  "day": "2026-10-28",
+  "close": 95.17780303955078,
+  "volume": 0.0
+ },
+ {
+  "symbol": "USDINR=X",
+  "day": "2026-10-29",
+  "close": 95.20950317382812,
+  "volume": 0.0
+ },
+ {
+  "symbol": "USDINR=X",
+  "day": "2026-10-30",
+  "close": 95.15239715576172,
+  "volume": 0.0
+ },
+ {
+  "symbol": "USDINR=X",
+  "day": "2026-11-02",
+  "close": 94.90499877929688,
+  "volume": 0.0
+ },
+ {
+  "symbol": "USDINR=X",
+  "day": "2026-11-03",
+  "close": 94.72540283203125,
+  "volume": 0.0
+ },
+ {
+  "symbol": "USDINR=X",
+  "day": "2026-11-04",
+  "close": 94.74839782714844,
+  "volume": 0.0
+ },
+ {
+  "symbol": "USDINR=X",
+  "day": "2026-11-05",
+  "close": 94.5154037475586,
+  "volume": 0.0
+ },
+ {
+  "symbol": "USDINR=X",
+  "day": "2026-11-06",
+  "close": 94.45890045166016,
+  "volume": 0.0
+ },
+ {
+  "symbol": "USDINR=X",
+  "day": "2026-11-09",
+  "close": 93.90299987792969,
+  "volume": 0.0
+ },
+ {
+  "symbol": "USDINR=X",
+  "day": "2026-11-10",
+  "close": 93.9468002319336,
+  "volume": 0.0
+ },
+ {
+  "symbol": "USDINR=X",
+  "day": "2026-11-11",
+  "close": 93.92500305175781,
+  "volume": 0.0
+ },
+ {
+  "symbol": "USDINR=X",
+  "day": "2026-11-12",
+  "close": 93.69840240478516,
+  "volume": 0.0
+ },
+ {
+  "symbol": "USDINR=X",
+  "day": "2026-11-13",
+  "close": 94.03379821777344,
+  "volume": 0.0
+ },
+ {
+  "symbol": "USDINR=X",
+  "day": "2026-11-15",
+  "close": 94.23999786376953,
+  "volume": 0.0
+ },
+ {
+  "symbol": "GC=F",
+  "day": "2026-09-24",
+  "close": 4298.0,
+  "volume": 164814.0
+ },
+ {
+  "symbol": "GC=F",
+  "day": "2026-09-25",
+  "close": 4321.2001953125,
+  "volume": 140092.0
+ },
+ {
+  "symbol": "GC=F",
+  "day": "2026-09-28",
+  "close": 4168.39990234375,
+  "volume": 229031.0
+ },
+ {
+  "symbol": "GC=F",
+  "day": "2026-09-29",
+  "close": 4179.7001953125,
+  "volume": 149747.0
+ },
+ {
+  "symbol": "GC=F",
+  "day": "2026-09-30",
+  "close": 4186.7001953125,
+  "volume": 156277.0
+ },
+ {
+  "symbol": "GC=F",
+  "day": "2026-10-01",
+  "close": 4202.2998046875,
+  "volume": 130846.0
+ },
+ {
+  "symbol": "GC=F",
+  "day": "2026-10-02",
+  "close": 4162.2998046875,
+  "volume": 169001.0
+ },
+ {
+  "symbol": "GC=F",
+  "day": "2026-10-05",
+  "close": 4156.7998046875,
+  "volume": 112195.0
+ },
+ {
+  "symbol": "GC=F",
+  "day": "2026-10-06",
+  "close": 4187.10009765625,
+  "volume": 121934.0
+ },
+ {
+  "symbol": "GC=F",
+  "day": "2026-10-07",
+  "close": 4140.7001953125,
+  "volume": 163894.0
+ },
+ {
+  "symbol": "GC=F",
+  "day": "2026-10-08",
+  "close": 4157.0,
+  "volume": 148432.0
+ },
+ {
+  "symbol": "GC=F",
+  "day": "2026-10-09",
+  "close": 4216.2998046875,
+  "volume": 134612.0
+ },
+ {
+  "symbol": "GC=F",
+  "day": "2026-10-12",
+  "close": 4190.60009765625,
+  "volume": 102772.0
+ },
+ {
+  "symbol": "GC=F",
+  "day": "2026-10-13",
+  "close": 4177.2998046875,
+  "volume": 124779.0
+ },
+ {
+  "symbol": "GC=F",
+  "day": "2026-10-14",
+  "close": 4107.89990234375,
+  "volume": 191279.0
+ },
+ {
+  "symbol": "GC=F",
+  "day": "2026-10-15",
+  "close": 4170.10009765625,
+  "volume": 159510.0
+ },
+ {
+  "symbol": "GC=F",
+  "day": "2026-10-16",
+  "close": 4181.10009765625,
+  "volume": 137939.0
+ },
+ {
+  "symbol": "GC=F",
+  "day": "2026-10-19",
+  "close": 4160.10009765625,
+  "volume": 123741.0
+ },
+ {
+  "symbol": "GC=F",
+  "day": "2026-10-20",
+  "close": 4142.60009765625,
+  "volume": 161101.0
+ },
+ {
+  "symbol": "GC=F",
+  "day": "2026-10-21",
+  "close": 4150.0,
+  "volume": 149523.0
+ },
+ {
+  "symbol": "GC=F",
+  "day": "2026-10-22",
+  "close": 4060.39990234375,
+  "volume": 214607.0
+ },
+ {
+  "symbol": "GC=F",
+  "day": "2026-10-23",
+  "close": 4007.89990234375,
+  "volume": 180320.0
+ },
+ {
+  "symbol": "GC=F",
+  "day": "2026-10-26",
+  "close": 4038.39990234375,
+  "volume": 126007.0
+ },
+ {
+  "symbol": "GC=F",
+  "day": "2026-10-27",
+  "close": 4074.60009765625,
+  "volume": 139103.0
+ },
+ {
+  "symbol": "GC=F",
+  "day": "2026-10-28",
+  "close": 4051.60009765625,
+  "volume": 151463.0
+ },
+ {
+  "symbol": "GC=F",
+  "day": "2026-10-29",
+  "close": 4031.39990234375,
+  "volume": 142006.0
+ },
+ {
+  "symbol": "GC=F",
+  "day": "2026-10-30",
+  "close": 3898.89990234375,
+  "volume": 237470.0
+ },
+ {
+  "symbol": "GC=F",
+  "day": "2026-11-02",
+  "close": 3969.60009765625,
+  "volume": 172512.0
+ },
+ {
+  "symbol": "GC=F",
+  "day": "2026-11-03",
+  "close": 3940.39990234375,
+  "volume": 163000.0
+ },
+ {
+  "symbol": "GC=F",
+  "day": "2026-11-04",
+  "close": 4073.0,
+  "volume": 232561.0
+ },
+ {
+  "symbol": "GC=F",
+  "day": "2026-11-05",
+  "close": 4113.5,
+  "volume": 215643.0
+ },
+ {
+  "symbol": "GC=F",
+  "day": "2026-11-06",
+  "close": 4074.89990234375,
+  "volume": 178024.0
+ },
+ {
+  "symbol": "GC=F",
+  "day": "2026-11-09",
+  "close": 4114.5,
+  "volume": 190642.0
+ },
+ {
+  "symbol": "GC=F",
+  "day": "2026-11-10",
+  "close": 4030.199951171875,
+  "volume": 196165.0
+ },
+ {
+  "symbol": "GC=F",
+  "day": "2026-11-11",
+  "close": 4000.5,
+  "volume": 132437.0
+ },
+ {
+  "symbol": "GC=F",
+  "day": "2026-11-12",
+  "close": 3885.300048828125,
+  "volume": 229442.0
+ },
+ {
+  "symbol": "GC=F",
+  "day": "2026-11-13",
+  "close": 3886.300048828125,
+  "volume": 151010.0
+ },
+ {
+  "symbol": "^NSEI",
+  "day": "2026-09-08",
+  "close": 23635.099609375,
+  "volume": 230100.0
+ },
+ {
+  "symbol": "^NSEI",
+  "day": "2026-09-09",
+  "close": 23431.5,
+  "volume": 352900.0
+ },
+ {
+  "symbol": "^NSEI",
+  "day": "2026-09-10",
+  "close": 23477.80078125,
+  "volume": 253200.0
+ },
+ {
+  "symbol": "^NSEI",
+  "day": "2026-09-11",
+  "close": 23398.099609375,
+  "volume": 293000.0
+ },
+ {
+  "symbol": "^NSEI",
+  "day": "2026-09-15",
+  "close": 23118.599609375,
+  "volume": 338800.0
+ },
+ {
+  "symbol": "^NSEI",
+  "day": "2026-09-16",
+  "close": 23217.599609375,
+  "volume": 261600.0
+ },
+ {
+  "symbol": "^NSEI",
+  "day": "2026-09-17",
+  "close": 23270.599609375,
+  "volume": 259700.0
+ },
+ {
+  "symbol": "^NSEI",
+  "day": "2026-09-18",
+  "close": 23346.400390625,
+  "volume": 375300.0
+ },
+ {
+  "symbol": "^NSEI",
+  "day": "2026-09-21",
+  "close": 23414.30078125,
+  "volume": 213600.0
+ },
+ {
+  "symbol": "^NSEI",
+  "day": "2026-09-22",
+  "close": 23329.0,
+  "volume": 244100.0
+ },
+ {
+  "symbol": "^NSEI",
+  "day": "2026-09-23",
+  "close": 23446.80078125,
+  "volume": 237600.0
+ },
+ {
+  "symbol": "^NSEI",
+  "day": "2026-09-24",
+  "close": 23063.099609375,
+  "volume": 271700.0
+ },
+ {
+  "symbol": "^NSEI",
+  "day": "2026-09-25",
+  "close": 23140.5,
+  "volume": 242700.0
+ },
+ {
+  "symbol": "^NSEI",
+  "day": "2026-09-28",
+  "close": 22780.25,
+  "volume": 261500.0
+ },
+ {
+  "symbol": "^NSEI",
+  "day": "2026-09-29",
+  "close": 22716.19921875,
+  "volume": 603200.0
+ },
+ {
+  "symbol": "^NSEI",
+  "day": "2026-09-30",
+  "close": 22620.44921875,
+  "volume": 379000.0
+ },
+ {
+  "symbol": "^NSEI",
+  "day": "2026-10-01",
+  "close": 22421.94921875,
+  "volume": 463600.0
+ },
+ {
+  "symbol": "^NSEI",
+  "day": "2026-10-05",
+  "close": 22555.75,
+  "volume": 436700.0
+ },
+ {
+  "symbol": "^NSEI",
+  "day": "2026-10-06",
+  "close": 22776.099609375,
+  "volume": 328800.0
+ },
+ {
+  "symbol": "^NSEI",
+  "day": "2026-10-07",
+  "close": 22603.05078125,
+  "volume": 359000.0
+ },
+ {
+  "symbol": "^NSEI",
+  "day": "2026-10-08",
+  "close": 22231.80078125,
+  "volume": 357500.0
+ },
+ {
+  "symbol": "^NSEI",
+  "day": "2026-10-09",
+  "close": 22520.44921875,
+  "volume": 296200.0
+ },
+ {
+  "symbol": "^NSEI",
+  "day": "2026-10-12",
+  "close": 22363.349609375,
+  "volume": 258800.0
+ },
+ {
+  "symbol": "^NSEI",
+  "day": "2026-10-13",
+  "close": 22721.94921875,
+  "volume": 308900.0
+ },
+ {
+  "symbol": "^NSEI",
+  "day": "2026-10-14",
+  "close": 22622.69921875,
+  "volume": 333200.0
+ },
+ {
+  "symbol": "^NSEI",
+  "day": "2026-10-15",
+  "close": 22997.349609375,
+  "volume": 370800.0
+ },
+ {
+  "symbol": "^NSEI",
+  "day": "2026-10-16",
+  "close": 23146.150390625,
+  "volume": 391600.0
+ },
+ {
+  "symbol": "^NSEI",
+  "day": "2026-10-19",
+  "close": 22888.94921875,
+  "volume": 285800.0
+ },
+ {
+  "symbol": "^NSEI",
+  "day": "2026-10-21",
+  "close": 22811.349609375,
+  "volume": 324700.0
+ },
+ {
+  "symbol": "^NSEI",
+  "day": "2026-10-22",
+  "close": 22687.650390625,
+  "volume": 391600.0
+ },
+ {
+  "symbol": "^NSEI",
+  "day": "2026-10-23",
+  "close": 22600.0,
+  "volume": 364200.0
+ },
+ {
+  "symbol": "^NSEI",
+  "day": "2026-10-26",
+  "close": 22753.19921875,
+  "volume": 310200.0
+ },
+ {
+  "symbol": "^NSEI",
+  "day": "2026-10-27",
+  "close": 22749.75,
+  "volume": 400900.0
+ },
+ {
+  "symbol": "^NSEI",
+  "day": "2026-10-28",
+  "close": 22698.849609375,
+  "volume": 295000.0
+ },
+ {
+  "symbol": "^NSEI",
+  "day": "2026-10-29",
+  "close": 22936.75,
+  "volume": 344000.0
+ },
+ {
+  "symbol": "^NSEI",
+  "day": "2026-10-30",
+  "close": 23053.099609375,
+  "volume": 328600.0
+ },
+ {
+  "symbol": "^NSEI",
+  "day": "2026-11-02",
+  "close": 23440.80078125,
+  "volume": 383400.0
+ },
+ {
+  "symbol": "^NSEI",
+  "day": "2026-11-03",
+  "close": 23810.849609375,
+  "volume": 408400.0
+ },
+ {
+  "symbol": "^NSEI",
+  "day": "2026-11-04",
+  "close": 23960.599609375,
+  "volume": 398400.0
+ },
+ {
+  "symbol": "^NSEI",
+  "day": "2026-11-05",
+  "close": 24536.599609375,
+  "volume": 534600.0
+ },
+ {
+  "symbol": "^NSEI",
+  "day": "2026-11-06",
+  "close": 25030.349609375,
+  "volume": 491000.0
+ },
+ {
+  "symbol": "^NSEI",
+  "day": "2026-11-09",
+  "close": 25044.650390625,
+  "volume": 406200.0
+ },
+ {
+  "symbol": "^NSEI",
+  "day": "2026-11-11",
+  "close": 25255.05078125,
+  "volume": 458000.0
+ },
+ {
+  "symbol": "^NSEI",
+  "day": "2026-11-12",
+  "close": 25299.349609375,
+  "volume": 349200.0
+ },
+ {
+  "symbol": "^NSEI",
+  "day": "2026-11-13",
+  "close": 25144.30078125,
+  "volume": 239600.0
+ }
+]
