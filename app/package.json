@@ -35,7 +35,7 @@
     "web": "expo start --web",
     "typecheck": "tsc --noEmit",
     "build:apk": "npx eas-cli@latest build -p android --profile preview",
-    "export:web": "npx expo export -p web"
+    "export:web": "expo export -p web && sh scripts/fix-web-assets.sh"
   },
   "private": true
 }

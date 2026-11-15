@@ -73,7 +73,7 @@ export default function FeedScreen() {
   const sections = useMemo(() => {
     if (!data) return [];
     if (!bySector)
-      return (['S', 'A', 'B'] as const).map((t) => ({ key: t as string, title: { S: 'Needs you now', A: 'Worth a look', B: 'For the record' }[t], items: data[t], summary: '' }));
+      return (['S', 'A', 'B'] as const).map((t) => ({ key: t as string, title: { S: 'Front page', A: 'Worth a look', B: 'For the record' }[t], items: data[t], summary: '' }));
     const groups: Record<string, FeedCard[]> = {};
     [...data.S, ...data.A, ...data.B].forEach((f) => (groups[f.sector || 'Other'] ||= []).push(f));
     // Sector-wise summary: sectors with urgent items first, each with a one-line tally
@@ -99,10 +99,10 @@ export default function FeedScreen() {
             {data.counts.S + data.counts.A > 0 ? (
               <>
                 <Text style={{ color: C.tier.S }}>{data.counts.S + data.counts.A}</Text>
-                {` thing${data.counts.S + data.counts.A === 1 ? '' : 's'} need${data.counts.S + data.counts.A === 1 ? 's' : ''} you.`}
+                {` filing${data.counts.S + data.counts.A === 1 ? '' : 's'} worth your attention.`}
               </>
             ) : (
-              'Nothing needs you right now.'
+              'All quiet on your portfolio.'
             )}
           </Serif>
           <View style={st.counters}>
