@@ -72,7 +72,21 @@ Runtime cost: **₹0**. All calls fit the Gemini and Groq free tiers. Every call
 sha256(task + prompt version + model + document), so re-runs cost nothing. Live per-feature usage
 (calls, tokens, cache hits) is at `GET /stats/cost`.
 
-COST_TABLE_PLACEHOLDER
+**Measured usage for this demo** (all of it on free tiers, so ₹0). Totals across building the 30-day demo feed for 15 holdings + 31 peers,
+2 full research views (Infosys, HDFC Bank) and the impact-tree exposures for the portfolio:
+
+| Feature | Model | Calls | Input tokens | Output tokens |
+|---|---|---|---|---|
+| Filing classification (leftovers only; ~95% handled by rules) | Groq gpt-oss-20b | 117 (+81 cache hits) | 27k | 27k |
+| Results tables from PDFs | Gemini Flash / Flash-Lite | 35 | 176k | 6.9k |
+| Management-change bios | Gemini Flash-Lite | 7 | 22k | 0.6k |
+| One-line summaries (A items, batched 8 per call) | Gemini Flash-Lite | 1 | 0.9k | 0.8k |
+| Promise-tracker claims (4–6 transcripts per company) | Gemini Flash | 18 | 81k | 3.0k |
+| Snapshot + bull/bear | Gemini Flash / Flash-Lite | 8 | 44k | 1.9k |
+| Impact-tree exposures (annual reports, ≤25 pages each) | Gemini Flash-Lite / Flash | 31 | 225k | 2.5k |
+
+Roughly **40k input tokens per company research view** and **~5k per enriched filing**. Rules handle most filings
+for free, only S/A items reach a model, and cache hits cost nothing. Live numbers: `GET /stats/cost`.
 
 ## Impact tree
 

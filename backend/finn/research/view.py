@@ -258,6 +258,8 @@ def impact_tree(s: Session, factor: str, move_pct: float | None = None) -> dict:
                       "source_url": doc.url if doc else ""})
     order = {"high": 0, "medium": 1, "low": 2}
     edges.sort(key=lambda x: order.get(x["strength"], 3))
+    seen: set[str] = set()
+    edges = [e for e in edges if not (e["ticker"] in seen or seen.add(e["ticker"]))]  # strongest edge per holding
     return {"factor": factor, "move_pct": move_pct, "edges": edges,
             "note": "Disclosed exposures from each company's annual report. Not a forecast of impact size."}
 
