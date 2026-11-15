@@ -96,8 +96,8 @@ def upsert_filings(s: Session, rows: list[dict]) -> list[str]:
             continue
         seen.add(r["id"])
         cat, sub = classify(r["subject"], r.get("text", ""), use_model=False)
-        f = Filing(id=r["id"], ticker=r["ticker"], company=r.get("company", ""), subject=r["subject"],
-                   text=r.get("text", ""), attachment_url=r.get("attachment_url", ""),
+        f = Filing(id=r["id"][:80], ticker=r["ticker"][:32], company=(r.get("company") or "")[:200], subject=(r["subject"] or "")[:300],
+                   text=r.get("text", ""), attachment_url=(r.get("attachment_url") or "")[:500],
                    filed_at=datetime.fromisoformat(r["filed_at"]), category=cat, subtype=sub)
         f.headline, f.summary = enrich.fallback_headline(f.company, f.subject, f.text)
         s.add(f)
@@ -143,7 +143,7 @@ def process(s: Session, ids: list[str] | None = None, download=None, screener=No
     sectors = _sector_map(s, pf)
     if use_models and llm.available("classify"):
         for f in filings:
-            if f.category == "unclassified" and f.ticker in sectors:
+            if f.category == "unclassified" and f.ticker in pf.holdings:
                 f.category, f.subtype = classify(f.subject, f.text, use_model=True)
 
     if filings:
@@ -151,6 +151,17 @@ def process(s: Session, ids: list[str] | None = None, download=None, screener=No
         for f in filings:
             f.price_move = mc.move(f.ticker, f.filed_at.date()) or f.price_move or {}
             rescore(s, f, pf)
+
+    last_results: dict[str, datetime] = {}
+    for f in sorted(filings, key=lambda x: x.filed_at):
+        if f.category != "results":
+            continue
+        prev = last_results.get(f.ticker)
+        if prev and (f.filed_at - prev) < timedelta(days=5):
+            f.subtype = "dup"
+            rescore(s, f, pf)
+        else:
+            last_results[f.ticker] = f.filed_at
 
     to_summarise = []
     for f in filings:
@@ -176,6 +187,7 @@ def process(s: Session, ids: list[str] | None = None, download=None, screener=No
                 rescore(s, f, pf)
 
     for f in filings:
+        f.headline = (f.headline or "")[:200]  # Postgres enforces column lengths; SQLite doesn't
         stats["scored"] += 1
         stats[f.tier] += 1
     return stats

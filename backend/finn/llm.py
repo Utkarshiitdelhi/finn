@@ -29,9 +29,9 @@ ROUTES: dict[str, list[str]] = {
     "classify": ["groq_small", "gemini_small"],
     "summary": ["gemini_small", "groq_small"],
     "bio": ["gemini_small", "groq_small"],
-    "results": ["gemini_mid"],  # reads PDFs directly
-    "claims": ["gemini_mid"],
-    "exposures": ["gemini_mid"],
+    "results": ["gemini_mid", "gemini_small"],  # reads PDFs directly
+    "claims": ["gemini_mid", "gemini_small"],
+    "exposures": ["gemini_mid", "gemini_small"],
     "snapshot": ["gemini_mid", "gemini_small"],
     "verdict": ["gemini_strong", "gemini_mid"],
     "bullbear": ["gemini_strong", "gemini_mid"],

@@ -8,9 +8,11 @@ import { Bars, Sparkline } from '@/components/Sparkline';
 import { Card, Chip, Empty, Label, Loading, Mono, Serif } from '@/components/ui';
 import { api } from '@/lib/api';
 import { useScreen } from '@/lib/finnContext';
-import { C, F, num, pct, signColor } from '@/lib/theme';
+import { C, F, num, pct, signColor, themed } from '@/lib/theme';
 
-const VERDICT: Record<string, string> = { Delivered: C.up, Partly: C.tier.A, Missed: C.down, Pending: C.sub, "Can't verify": C.faint };
+const VERDICT: Record<string, string> = new Proxy({} as Record<string, string>, {
+  get: (_t, k: string) => ({ Delivered: C.up, Partly: C.tier.A, Missed: C.down, Pending: C.sub, "Can't verify": C.faint } as Record<string, string>)[k],
+});
 
 function PromiseCard({ c }: { c: any }) {
   const [open, setOpen] = useState<string | null>(null);
@@ -196,7 +198,7 @@ export default function CompanyScreen() {
   if (data.status === 'building' || data.status === 'error') {
     const steps = data.steps || [];
     return (
-      <View style={{ padding: 20, gap: 10 }}>
+      <View style={{ padding: 20, gap: 10, width: '100%', maxWidth: 720, alignSelf: 'center' }}>
         <Stack.Screen options={{ title: T }} />
         <Serif style={{ fontSize: 20 }}>{data.status === 'error' ? `Couldn't build ${T}` : `Researching ${T}…`}</Serif>
         <Text style={{ color: C.sub, fontSize: 13 }}>First run reads the filings and transcripts; after that it opens instantly.</Text>
@@ -216,7 +218,7 @@ export default function CompanyScreen() {
   const last = prices[prices.length - 1];
   const chg = prices.length > 1 ? ((last - prices[prices.length - 2]) / prices[prices.length - 2]) * 100 : null;
   return (
-    <ScrollView contentContainerStyle={{ padding: 16, gap: 12, paddingBottom: 140 }}>
+    <ScrollView contentContainerStyle={{ padding: 16, gap: 12, paddingBottom: 140, width: '100%', maxWidth: 720, alignSelf: 'center' }}>
       <Stack.Screen options={{ title: T }} />
       <View style={{ gap: 6 }}>
         <Serif style={{ fontSize: 24 }}>{v.name}</Serif>
@@ -252,7 +254,7 @@ export default function CompanyScreen() {
   );
 }
 
-const st = StyleSheet.create({
+const st = themed(() => ({
   src: { color: C.faint, fontSize: 11 },
   prow: { paddingVertical: 8, borderTopWidth: StyleSheet.hairlineWidth, borderTopColor: C.line, gap: 3 },
   verdict: { borderWidth: 1, borderRadius: 999, paddingHorizontal: 8, paddingVertical: 2 },
@@ -260,4 +262,4 @@ const st = StyleSheet.create({
   tr: { flexDirection: 'row' },
   th: { flex: 1, color: C.faint, fontSize: 11, textAlign: 'right' },
   td: { flex: 1, fontSize: 13, textAlign: 'right' },
-});
+}));

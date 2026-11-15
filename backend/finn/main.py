@@ -34,6 +34,11 @@ def _startup() -> None:
         rules.ensure_defaults(s)
 
 
+@app.get("/")
+def root():
+    return {"name": "FINN API", "docs": "/docs", "health": "/health", "feed": "/feed?window=7d"}
+
+
 @app.get("/health")
 def health():
     return {"ok": True, "models": {"gemini": bool(config.GEMINI_API_KEY), "groq": bool(config.GROQ_API_KEY)}, "at": datetime.utcnow().isoformat()}

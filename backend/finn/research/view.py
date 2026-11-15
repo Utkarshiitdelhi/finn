@@ -260,3 +260,26 @@ def impact_tree(s: Session, factor: str, move_pct: float | None = None) -> dict:
     edges.sort(key=lambda x: order.get(x["strength"], 3))
     return {"factor": factor, "move_pct": move_pct, "edges": edges,
             "note": "Disclosed exposures from each company's annual report. Not a forecast of impact size."}
+
+
+def build_exposures(ticker: str) -> int:
+    """Exposure graph only (no transcripts): annual report -> relevant sections -> one model call -> quote check."""
+    sc = screener.company(ticker)
+    ars = sc["docs"]["annual_reports"]
+    if not ars:
+        log.warning("%s: no annual report listed", ticker)
+        return 0
+    ar = ars[0]
+    pdf = screener.download_pdf(ar["url"])
+    pages = screener.pdf_pages(pdf)
+    doc_id = _save_doc(ticker, "annual_report", ar["period"], ar["url"], pdf, [])
+    secs = _ar_sections(pages)
+    text = "\n".join(f"[[page {n}]]\n{p}" for n, p in secs)[:120_000]
+    if not text:
+        log.warning("%s: no MD&A / risk pages found (scanned PDF?)", ticker)
+        return 0
+    ex = llm.call("exposures", EXPOSURE_PROMPT.format(name=sc["name"] or ticker, factors=", ".join(EXPOSURE_FACTORS), text=text))
+    keep = [e for e in ex.get("exposures", [])
+            if e.get("factor") in EXPOSURE_FACTORS and promise.quote_found(e.get("quote", ""), pages, e.get("page"))[0]]
+    _save_exposures(ticker, doc_id, keep)
+    return len(keep)

@@ -1,3 +1,4 @@
+import Ionicons from '@expo/vector-icons/Ionicons';
 import { RecordingPresets, requestRecordingPermissionsAsync, setAudioModeAsync, useAudioRecorder } from 'expo-audio';
 import * as Haptics from 'expo-haptics';
 import { router } from 'expo-router';
@@ -8,7 +9,7 @@ import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
 import { api, type AssistantReply } from '@/lib/api';
 import { useFinn } from '@/lib/finnContext';
-import { C, F } from '@/lib/theme';
+import { C, F, themed } from '@/lib/theme';
 
 import { RuleCard } from './RuleCard';
 import { Card, Label } from './ui';
@@ -101,7 +102,8 @@ export function FinnButton() {
         delayLongPress={250}
         style={[st.fab, { bottom: insets.bottom + 64 }, recording && st.fabRec]}
         accessibilityLabel="FINN assistant. Tap to type, hold to talk.">
-        <Text style={st.fabText}>{recording ? '●' : 'F'}</Text>
+        <Ionicons name={recording ? 'mic' : 'sparkles'} size={20} color={C.accentText} />
+        <Text style={st.fabText}>{recording ? 'Listening…' : 'Ask FINN'}</Text>
       </Pressable>
       {recording ? (
         <View style={[st.listening, { bottom: insets.bottom + 132 }]}>
@@ -166,7 +168,7 @@ export function FinnButton() {
               autoFocus={!reply}
             />
             <Pressable onPress={() => send()} style={st.send}>
-              <Text style={{ color: C.bg, fontWeight: '700' }}>↑</Text>
+              <Text style={{ color: C.accentText, fontWeight: '700' }}>↑</Text>
             </Pressable>
           </View>
         </KeyboardAvoidingView>
@@ -175,19 +177,20 @@ export function FinnButton() {
   );
 }
 
-const st = StyleSheet.create({
+const st = themed(() => ({
   fab: {
-    position: 'absolute', right: 18, width: 56, height: 56, borderRadius: 28, backgroundColor: C.text,
-    alignItems: 'center', justifyContent: 'center', elevation: 6, shadowColor: '#000', shadowOpacity: 0.4, shadowRadius: 8, shadowOffset: { width: 0, height: 4 },
+    position: 'absolute', right: 16, height: 52, borderRadius: 26, backgroundColor: C.accent, paddingHorizontal: 18,
+    flexDirection: 'row', alignItems: 'center', gap: 8,
+    elevation: 8, shadowColor: C.accent, shadowOpacity: 0.45, shadowRadius: 12, shadowOffset: { width: 0, height: 4 },
   },
-  fabRec: { backgroundColor: C.down, transform: [{ scale: 1.12 }] },
-  fabText: { color: C.bg, fontFamily: F.serif, fontSize: 24, fontWeight: '700' },
+  fabRec: { backgroundColor: C.down, transform: [{ scale: 1.06 }] },
+  fabText: { color: C.accentText, fontSize: 15, fontWeight: '800' },
   listening: { position: 'absolute', right: 18, backgroundColor: C.surface2, borderRadius: 8, paddingHorizontal: 12, paddingVertical: 8 },
   backdrop: { flex: 1, backgroundColor: '#0008' },
   sheet: { backgroundColor: C.surface, borderTopLeftRadius: 18, borderTopRightRadius: 18, padding: 16, gap: 8 },
   grab: { alignSelf: 'center', width: 36, height: 4, borderRadius: 2, backgroundColor: C.line, marginBottom: 4 },
   inputRow: { flexDirection: 'row', gap: 8, alignItems: 'center' },
   input: { flex: 1, backgroundColor: C.surface2, color: C.text, borderRadius: 999, paddingHorizontal: 16, paddingVertical: 10, fontSize: 15 },
-  send: { width: 40, height: 40, borderRadius: 20, backgroundColor: C.text, alignItems: 'center', justifyContent: 'center' },
+  send: { width: 40, height: 40, borderRadius: 20, backgroundColor: C.accent, alignItems: 'center', justifyContent: 'center' },
   suggest: { borderWidth: 1, borderColor: C.line, borderRadius: 999, paddingHorizontal: 12, paddingVertical: 6 },
-});
+}));

@@ -14,12 +14,13 @@ CATEGORIES = [
 _RULES: list[tuple[str, list[str], list[str]]] = [
     ("routine", [r"trading window", r"newspaper publication", r"74\s*\(5\)", r"loss of share",
                  r"duplicate share", r"certificate under", r"compliance certificate", r"shareholding pattern",
-                 r"statement of investor complaints", r"book closure", r"record date"], []),
+                 r"statement of investor complaints", r"book closure", r"record date", r"esop|esos|esps",
+                 r"monitoring agency", r"news verification", r"rumou?r verification"], []),
     ("earnings_call", [r"con\.? ?call", r"conference call", r"analysts?/institutional investor meet"],
      [r"transcript", r"audio recording"]),
     ("investor_meetings", [r"analysts?/institutional investor meet", r"investor meet", r"con\.? ?call",
                             r"investor presentation", r"earnings call"], []),
-    ("results", [r"financial results?", r"\bresults?\b(?! of postal)", r"integrated filing.*financ"], []),
+    ("results", [r"financial results?", r"integrated filing.*financ"], []),
     ("board_meeting", [r"board meeting intimation", r"prior intimation"], []),
     ("credit_rating", [r"credit rating", r"\brating\b"], []),
     ("pledging", [r"pledge", r"encumbrance", r"invocation"], []),
@@ -45,7 +46,25 @@ _RULES: list[tuple[str, list[str], list[str]]] = [
 _COMPILED = [(c, [re.compile(p, re.I) for p in sp], [re.compile(p, re.I) for p in tp]) for c, sp, tp in _RULES]
 
 
+# NSE's own one-line summary (attchmntText) decides the generic subjects ("Updates", "Outcome of Board Meeting").
+_TEXT_FIRST: list[tuple[str, re.Pattern]] = [(c, re.compile(p, re.I)) for c, p in [
+    ("postal_ballot", r"scrutini[sz]er|postal ballot|e-?voting"),
+    ("routine", r"newspaper|advertisement|publication of"),
+    ("routine", r"commercial paper|esop|esos|esps|employee stock option"),
+    ("routine", r"half[- ]yearly report|related party transaction|loss of share|duplicate share|investor complaints|74\s*\(5\)"),
+    ("board_meeting", r"to announce .*results|intimat\w* .*board meeting|board meeting .*(to consider|will be held|scheduled)"),
+    ("earnings_call", r"transcript"),
+    ("results", r"(submitted|approved|considered).{0,60}(unaudited |audited )?(standalone |consolidated )?financial results"),
+]]
+
+
 def classify_rules(subject: str, text: str = "") -> str:
+    head = f"{subject} {text[:400]}"
+    for cat, pat in _TEXT_FIRST:
+        if pat.search(head):
+            return cat
+    if re.search(r"outcome of board meeting", subject, re.I) and not re.search(r"financial result", head, re.I):
+        return "board_meeting"  # no financial results mentioned: dividend dates, approvals, etc.
     for cat, subj_pats, text_pats in _COMPILED:
         if any(p.search(subject) for p in subj_pats):
             if text_pats and not any(p.search(text) or p.search(subject) for p in text_pats):
@@ -53,7 +72,7 @@ def classify_rules(subject: str, text: str = "") -> str:
             return cat
     # Weak signal from the free-text body when the subject is generic ("General Updates")
     for cat, subj_pats, _ in _COMPILED:
-        if cat in ("routine", "investor_meetings", "earnings_call"):
+        if cat in ("routine", "investor_meetings", "earnings_call", "results"):
             continue
         if any(p.search(text[:600]) for p in subj_pats):
             return cat
@@ -73,6 +92,8 @@ _PROMOTER = re.compile(r"promoter", re.I)
 def subtype(category: str, subject: str, text: str) -> str:
     blob = f"{subject} {text}"
     if category == "management_change":
+        if re.search(r"re-?appoint|continuation", blob, re.I):
+            return "reappoint"
         if _TOP_ROLE.search(blob):
             return "top"
         if _INDEP.search(blob):
@@ -90,6 +111,10 @@ def subtype(category: str, subject: str, text: str) -> str:
         return "regulator" if _REGULATOR.search(blob) else "other"
     if category == "insider_trading":
         return "promoter" if _PROMOTER.search(blob) else "other"
+    if category == "fund_raise":
+        return "large" if re.search(r"preferential|\bqip\b|qualified institution|rights issue|debenture|\bncds?\b|non-convertible|bonds?\b|warrants?", blob, re.I) else "minor"
+    if category == "M&A":
+        return "subsidiary" if re.search(r"incorporat|wholly[- ]owned subsidiary", blob, re.I) else ""
     if category == "press_release":
         return "order_win" if re.search(r"\border|contract|letter of award|loa\b", blob, re.I) else "other"
     return ""

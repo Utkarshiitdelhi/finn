@@ -164,10 +164,21 @@ def summarise(filings: list[dict]) -> dict[str, dict]:
     return out
 
 
+_BOILER = re.compile(r"^.*?\b(?:limited|ltd\.?)\s+(?:has\s+)?(?:(?:informed|intimated)\s+the\s+exchange\s*(?:about|regarding|that|of)?|submitted\s+(?:to\s+)?the\s+exchange,?|disclosed\s+that|submitted|filed|approved|received)\s*", re.I)
+
+
 def fallback_headline(company: str, subject: str, text: str) -> tuple[str, str]:
+    """No-model headline: NSE's own one-line summary minus the "X Limited has informed the Exchange" boilerplate."""
     short = re.sub(r"\s+(limited|ltd\.?)$", "", company, flags=re.I).strip() or company
-    head = f"{short}: {subject}"[:90]
-    body = re.sub(r"\s+", " ", text).strip()
+    body = re.sub(r"\s+", " ", text or "").strip()
+    gist = _BOILER.sub("", body).strip(" .,'\"") if body else ""
+    gist = re.sub(r"^.{0,80}?\b(?:limited|ltd\.?)\s+(?:has\s+)?", "", gist, count=1, flags=re.I) if re.match(r"^.{0,80}?\b(?:limited|ltd\.?)\s", gist, re.I) else gist
+    if gist and len(gist) > 12:
+        gist = gist[0].upper() + gist[1:]
+        head = f"{short}: {gist}"
+        head = head if len(head) <= 95 else head[:94].rsplit(" ", 1)[0] + "…"
+    else:
+        head = f"{short}: {subject}"[:95]
     return head, (body[:157] + "…") if len(body) > 160 else body
 
 

@@ -133,13 +133,70 @@ def load_snapshot() -> None:
                  pipeline.process(s, new_ids, screener=_screener_quarters))
 
 
+def reprocess() -> None:
+    """Drop filings outside holdings + peers, then (re)score and enrich everything left."""
+    import json
+
+    init_db()
+    data = json.loads(config.PORTFOLIO_PATH.read_text())
+    keep = {h["ticker"] for h in data["holdings"]} | set(data.get("peers", {}))
+    with session_scope() as s:
+        n = s.query(Filing).filter(Filing.ticker.notin_(keep)).delete(synchronize_session=False)
+        log.info("removed %d filings outside holdings + peers", n)
+    nse = ingest.NSE()
+    with session_scope() as s:
+        ids = [f.id for f in s.scalars(select(Filing)).all()]
+        log.info("reprocessing %d filings", len(ids))
+        log.info("scored: %s", pipeline.process(s, ids, download=nse.download, screener=_screener_quarters))
+        hits = rules.evaluate_filings(s, s.scalars(select(Filing)).all())
+        log.info("%d rule hits, %d pushes", len(hits), push.push_new_s_tier(s) + push.push_rule_hits(s, hits))
+
+
+def rebuild(days: int | str = 30) -> None:
+    """Fresh start for filings: (re)fetch — or `rebuild snapshot` to reuse data/snapshots/filings-latest.json —
+    clear the filings table, insert holdings + peers, score, enrich S/A."""
+    init_db()
+    with session_scope() as s:
+        if not s.scalars(select(Holding)).first():
+            pipeline.load_portfolio_file(s)
+        rules.ensure_defaults(s)
+    from_snapshot = str(days) == "snapshot"
+    if from_snapshot:
+        rows = ingest.load_snapshot("filings-latest.json") or []
+        log.info("loaded %d filings from snapshot", len(rows))
+    else:
+        rows = ingest.fetch_filings(_tickers(), days=int(days))
+        ingest.save_snapshot("filings-latest.json", rows)
+    rows = _relevant(rows)
+    with session_scope() as s:
+        log.info("cleared %d old filings", s.query(Filing).delete(synchronize_session=False))
+    new_ids = _store_filings(rows)
+    log.info("%d relevant filings stored", len(new_ids))
+    # snapshot mode: results tables from screener's quarterly data (no PDF/model round trips)
+    download = None if from_snapshot else ingest.NSE().download
+    with session_scope() as s:
+        stats = pipeline.process(s, new_ids, download=download, screener=_screener_quarters)
+        log.info("scored: %s", stats)
+    log.info("DONE. Check: %s", "GET /feed?window=30d")
+
+
+def exposures(tickers: list[str] | None = None) -> None:
+    """Impact-tree data for every holding (or the given tickers): annual report exposures only."""
+    init_db()
+    for t in tickers or _tickers():
+        try:
+            log.info("%s: %d exposures", t, research.build_exposures(t))
+        except Exception as e:
+            log.warning("%s exposures failed: %s", t, e)
+
+
 def all_() -> None:
     poll()
     eod()
     build_research()
 
 
-JOBS = {"poll": poll, "eod": eod, "brief": brief, "research": build_research, "load-snapshot": load_snapshot, "all": all_}
+JOBS = {"exposures": exposures, "rebuild": rebuild, "reprocess": reprocess, "poll": poll, "eod": eod, "brief": brief, "research": build_research, "load-snapshot": load_snapshot, "all": all_}
 
 if __name__ == "__main__":
     logging.basicConfig(level=logging.INFO, format="%(asctime)s %(name)s %(levelname)s %(message)s")
@@ -149,7 +206,11 @@ if __name__ == "__main__":
     name, args = sys.argv[1], sys.argv[2:]
     if name == "research":
         build_research([a.upper() for a in args] or None)
+    elif name == "exposures":
+        exposures([a.upper() for a in args] or None)
     elif name == "poll" and args:
         poll(int(args[0]))
+    elif name == "rebuild" and args:
+        rebuild(args[0] if args[0] == "snapshot" else int(args[0]))
     else:
         JOBS[name]()

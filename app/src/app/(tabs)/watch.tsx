@@ -43,7 +43,7 @@ export default function WatchScreen() {
   };
 
   return (
-    <ScrollView contentContainerStyle={{ padding: 16, gap: 14, paddingBottom: 120 }} refreshControl={<RefreshControl refreshing={loading} onRefresh={load} tintColor={C.sub} />}>
+    <ScrollView contentContainerStyle={{ padding: 16, gap: 14, paddingBottom: 120, width: '100%', maxWidth: 720, alignSelf: 'center' }} refreshControl={<RefreshControl refreshing={loading} onRefresh={load} tintColor={C.sub} />}>
       <Card>
         <Label>Add a rule</Label>
         <TextInput

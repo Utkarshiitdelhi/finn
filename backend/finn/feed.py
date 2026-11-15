@@ -9,7 +9,7 @@ from sqlalchemy.orm import Session
 from .models import Filing
 from .score import CATEGORY_LABEL
 
-WINDOWS = {"24h": 24, "3d": 72, "7d": 168}
+WINDOWS = {"24h": 24, "3d": 72, "7d": 168, "30d": 720}
 
 
 def card(f: Filing, full: bool = False) -> dict:

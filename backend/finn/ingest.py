@@ -70,15 +70,37 @@ def parse_nse_time(s: str) -> datetime:
     return datetime.utcnow()
 
 
+_TEXT_KEYS = ("attchText", "attchtext", "attch_text", "an_text", "desc_text", "details", "text", "sm_text", "headline")
+_FILE_KEYS = ("attchFile", "attchfile", "attch_file", "attachment", "file", "pdf", "pdfLink", "url")
+_NOT_TEXT = {"desc", "sm_name", "symbol", "smIndustry", "an_dt", "sort_date", "seq_id", "sm_isin", "exchdisstime", "difference"}
+
+
+def _first(row: dict, keys) -> str:
+    low = {k.lower(): v for k, v in row.items()}
+    for k in keys:
+        v = row.get(k, low.get(k.lower()))
+        if isinstance(v, str) and v.strip() and v.strip() != "-":
+            return v.strip()
+    return ""
+
+
 def normalise_nse(row: dict) -> dict:
-    """NSE announcement row -> our filing dict."""
+    """NSE announcement row -> our filing dict. NSE renames fields now and then, so look them up
+    loosely: known names first, then any long free-text value / any .pdf link."""
+    text = _first(row, _TEXT_KEYS)
+    if not text:
+        cands = [v for k, v in row.items() if k not in _NOT_TEXT and isinstance(v, str) and len(v) > 40 and not v.startswith("http")]
+        text = max(cands, key=len, default="")
+    att = _first(row, _FILE_KEYS)
+    if not att or not att.startswith("http"):
+        att = next((v for v in row.values() if isinstance(v, str) and v.startswith("http") and v.lower().split("?")[0].endswith((".pdf", ".zip"))), att or "")
     return {
         "id": f"nse:{row.get('seq_id') or row.get('an_dt')}:{row.get('symbol')}",
         "ticker": (row.get("symbol") or "").upper(),
         "company": row.get("sm_name") or "",
         "subject": row.get("desc") or "",
-        "text": row.get("attchText") or "",
-        "attachment_url": row.get("attchFile") or "",
+        "text": text,
+        "attachment_url": att,
         "filed_at": parse_nse_time(row.get("an_dt") or row.get("sort_date") or "").isoformat(),
         "industry": row.get("smIndustry") or "",
     }
@@ -104,7 +126,11 @@ def fetch_filings(tickers: list[str], days: int = 7) -> list[dict]:
     if not rows:
         log.warning("NSE gave nothing; trying BSE")
         return fetch_bse(days)
-    return [normalise_nse(r) for r in rows]
+    save_snapshot("nse-raw-sample.json", rows[:15])  # for checking NSE's current field names
+    out = [normalise_nse(r) for r in rows]
+    log.info("NSE fields: %s | with text: %d/%d | with PDF: %d/%d", sorted(rows[0].keys()),
+             sum(1 for r in out if r["text"]), len(out), sum(1 for r in out if r["attachment_url"]), len(out))
+    return out
 
 
 def fetch_bse(days: int = 7) -> list[dict]:

@@ -128,5 +128,6 @@ export const api = {
     fd.append('ctx', JSON.stringify(ctx));
     return req<AssistantReply>('/assistant/voice', { method: 'POST', body: fd });
   },
+  pushTest: () => req<{ sent: number }>('/push/test', { method: 'POST' }),
   registerPush: (token: string, platform: string) => req('/push/register', { method: 'POST', body: JSON.stringify({ token, platform }) }),
 };

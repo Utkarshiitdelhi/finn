@@ -2,8 +2,9 @@ import { router } from 'expo-router';
 import { useCallback, useEffect, useState } from 'react';
 import { Pressable, ScrollView, Text, View } from 'react-native';
 
-import { Card, Chip, Label, Loading, Mono } from '@/components/ui';
+import { Button, Card, Chip, Label, Loading, Mono } from '@/components/ui';
 import { api } from '@/lib/api';
+import { lastPushStatus, registerForPush, type PushStatus } from '@/lib/push';
 import { useScreen } from '@/lib/finnContext';
 import { C, F } from '@/lib/theme';
 
@@ -16,6 +17,8 @@ const CATS = [
 export default function PortfolioScreen() {
   useScreen({ screen: 'portfolio' });
   const [data, setData] = useState<any>(null);
+  const [push, setPush] = useState<PushStatus>(lastPushStatus());
+  const [pushMsg, setPushMsg] = useState<string | null>(null);
   const load = useCallback(() => api.portfolio().then(setData).catch(() => {}), []);
   useEffect(() => {
     load();
@@ -38,7 +41,29 @@ export default function PortfolioScreen() {
   ).sort((a: any, b: any) => b[1] - a[1]);
 
   return (
-    <ScrollView contentContainerStyle={{ padding: 16, gap: 14, paddingBottom: 120 }}>
+    <ScrollView contentContainerStyle={{ padding: 16, gap: 14, paddingBottom: 120, width: '100%', maxWidth: 720, alignSelf: 'center' }}>
+      <Card>
+        <Label>Notifications</Label>
+        <Text style={{ color: push.ok ? C.up : C.tier.A, fontSize: 13 }}>{push.ok ? '● ' : '○ '}{push.message}</Text>
+        <View style={{ flexDirection: 'row', gap: 8 }}>
+          <Button small kind="ghost" label="Retry" onPress={async () => setPush(await registerForPush())} />
+          <Button
+            small
+            label="Send test push"
+            onPress={async () => {
+              setPushMsg('Sending…');
+              try {
+                const r = await api.pushTest();
+                setPushMsg(r.sent ? `Sent to ${r.sent} device${r.sent === 1 ? '' : 's'}. It should arrive in a few seconds.` : 'No registered devices yet. Tap Retry first.');
+              } catch (e: any) {
+                setPushMsg(e.message);
+              }
+            }}
+          />
+        </View>
+        {pushMsg ? <Text style={{ color: C.sub, fontSize: 12 }}>{pushMsg}</Text> : null}
+      </Card>
+
       <Card>
         <Label>Default alerts</Label>
         {(

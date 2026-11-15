@@ -22,7 +22,7 @@ export default function FilingScreen() {
   if (err) return <Empty title="Filing not found" body={err} />;
   if (!f) return <Loading />;
   return (
-    <ScrollView contentContainerStyle={{ padding: 16, gap: 12, paddingBottom: 120 }}>
+    <ScrollView contentContainerStyle={{ padding: 16, gap: 12, paddingBottom: 120, width: '100%', maxWidth: 720, alignSelf: 'center' }}>
       <Stack.Screen options={{ title: f.ticker }} />
       <FilingCard f={f} />
       <Card>

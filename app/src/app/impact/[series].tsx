@@ -21,7 +21,7 @@ export default function ImpactSheet() {
   if (err) return <Empty title="No exposure map" body={err} />;
   if (!d) return <Loading />;
   return (
-    <ScrollView contentContainerStyle={{ padding: 16, gap: 12, paddingBottom: 80 }}>
+    <ScrollView contentContainerStyle={{ padding: 16, gap: 12, paddingBottom: 80, width: '100%', maxWidth: 720, alignSelf: 'center' }}>
       <Serif style={{ fontSize: 22 }}>
         {d.factor} {d.move_pct != null ? <Mono style={{ color: d.move_pct >= 0 ? C.up : C.down }}>{pct(d.move_pct)}</Mono> : null}
       </Serif>
